@@ -1,8 +1,14 @@
 <?php
 
 function add_stylesheet(){
+
+    wp_enqueue_style(
+        'header_style',
+        get_stylesheet_directory_uri().'/css/header_style.css'
+    );
+
     wp_enqueue_style( 
-        'main', 
+        'main_style', 
         get_stylesheet_directory_uri().'/style.css' 
     );
 }

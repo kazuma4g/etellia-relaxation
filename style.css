@@ -4,3 +4,17 @@ Author: Kazuma Naka
 Description: Kadai for Etellia Online.
 Version: 1.0
 */
+
+body{
+    font-family: 'Noto Serif JP';
+    font-size: 16px;
+    margin: auto;
+    padding: 0px;
+    width: 900px;
+}
+
+.main_content {
+    width: 800px;
+    background-color: RGB(255,255,255);
+    text-align: center;
+}
