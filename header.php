@@ -12,7 +12,7 @@
     </div>
     <div class="header_menu_bar">
         <nav>
-            <ul class="header_nav">
+            <ul class="header_ul">
                 <li><a href="index.php">トップ</a></li>
                 <li><a href="#">サロンについて</a></li>
                 <li><a href="#">メニュー</a></li>

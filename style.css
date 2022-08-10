@@ -19,12 +19,3 @@ body{
     text-align: center;
     margin-top: -32px;
 }
-
-li{
-    list-style: none;
-}
-
-a {
-    color: rgb(0,0,0);
-    text-decoration: none;
-}

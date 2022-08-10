@@ -11,6 +11,7 @@
 <body>
     <div class="main_content">
         <?php get_header(); ?>
+        <?php get_template_part('/ui/top_content'); ?>
     </div>
 </body>
 </html>
