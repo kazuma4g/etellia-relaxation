@@ -1,9 +1,30 @@
 .top_page_container{
     width: 100%;
-    height: auto;
+    height:auto;
+    flex-direction: column;
 }
 
-.page_top_img{
+.page_top_img_parent{
+    background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url('../img/top.jpg');
     width: 100%;
-    height: auto;
+    height: 28em;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.page_top_img_text{
+    flex-direction: column;
+    margin-right: 2rem;
+    font-size: 2.7rem;
+    color: white;
+}
+
+.page_top_img_text span{
+    display:block;
+    font-size: 1rem;
+    color: #e4bc2e;
 }

@@ -7,11 +7,13 @@
     <title>Etellia Relaxation</title>
     <link rel="icon" type="image/png" href="/img/logo.png" />
     <?php wp_head(); ?>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
 </head>
 <body>
     <div class="main_content">
         <?php get_header(); ?>
         <?php get_template_part('/ui/top_content'); ?>
+        <?php get_footer(); ?>
     </div>
 </body>
 </html>

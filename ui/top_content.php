@@ -1,6 +1,10 @@
 <div class="top_page_container">
-    <img 
-        class="page_top_img"
-        src="<?php echo get_stylesheet_directory_uri(); ?>./img/top.jpg"
-    />
+    <div class="page_top_img_parent">
+        <div class="page_top_img_text">
+            心から癒される時間と空間
+                <span>
+                    Location time and space that is healed from the bottom my heal.
+                </span>
+        </div>
+    </div>
 </div>
