@@ -32,13 +32,17 @@
     background-color: rgb(170,0,0);
 }
 
-li{
+.header_menu_bar li{
     list-style: none;
 }
 
-a {
+.header_menu_bar a {
     color: rgb(0,0,0);
     text-decoration: none;
+}
+
+.header_menu_bar a:hover {
+    color: rgb(170,0,0);
 }
 
 .header_menu_bar{
@@ -47,7 +51,7 @@ a {
     background-color: RGB(255,255,255);
 }
 
-.header_ul{
+.header_menu_bar ul{
     display: flex;
     justify-content: space-evenly;
 }

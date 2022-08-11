@@ -7,19 +7,28 @@
     </div>
     <div class="page_top_circle_img_parent">
         <div class="circle_img_salon">
-            <div class="circle_img_salon_filter">
-                <div class="circle_img_salon_text">Salon</div>
+            <div class="circle_img_salon_filter" onclick="location.href='index.php';">
+                <div class="circle_img_salon_text">
+                    <a href="#">Salon</a>
+                </div>
             </div>
         </div>
         <div class="circle_img_menu">
-            <div class="circle_img_menu_filter">
-                <div class="circle_img_menu_text">Menu</div>
+            <div class="circle_img_menu_filter" onclick="location.href='index.php';">
+                <div class="circle_img_menu_text" >
+                    <a href="#">Menu</a>
+                </div>
             </div>
         </div>
         <div class="circle_img_note">
-            <div class="circle_img_note_filter">
-                <div class="circle_img_note_text">Notes</div> 
+            <div class="circle_img_note_filter" onclick="location.href='index.php';">
+                <div class="circle_img_note_text">
+                    <a href="#">Notes</a>
+                </div> 
             </div>
         </div>
+    </div>
+    <div class="page_top_healing_space_parent">
+        <img class="page_top_healing_space" src="<?php echo get_stylesheet_directory_uri(); ?>/img/healing_space.jpg"/>
     </div>
 </div>
