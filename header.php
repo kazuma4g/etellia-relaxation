@@ -8,7 +8,9 @@
         <button 
             type="button" 
             class="reservation_btn"
-            onclick="window.location.href='index.php'">ご予約はこちら</button>
+            onclick="window.location.href='index.php'">
+            ご予約はこちら
+        </button>
     </div>
     <div class="header_menu_bar">
         <nav>

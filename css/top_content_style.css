@@ -160,3 +160,107 @@
     height: 100%;
     transform: scale(1.5);
 }
+
+.page_top_information_parent{
+    width: 100%;
+    height: 50rem;
+    background-color: RGB(0,0,0);
+    flex-direction: column;
+}
+
+.page_top_information_reservation{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.page_top_information_text1{
+    color: rgb(255,255,255);
+    margin-top: 1em;
+    font-size: 3rem;
+}
+
+.page_top_information_text2{
+    color: rgb(255,255,255);
+    margin-top: 1em;
+    font-size: 1rem;
+}
+
+.info_reservation_btn{
+    margin-top: 4em;
+    width: 40%;
+    height:auto;
+    border-radius: 50px;
+    background-color: RGB(153,0,0);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.info_reservation_btn:hover{
+    background-color: rgb(200,0,0);
+}
+
+.page_top_information_address_parent{
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.page_top_information_address{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: 2em;
+    margin-top: 8em;
+}
+
+.page_top_information_company_name{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.page_top_information_address hr {
+    width: 85%;
+    height: 1px;
+    margin-left: -1px;
+    background-color:white;
+    border: none;
+}
+
+.page_top_information_company_address1{
+    color: white;
+    font-size: 1rem;
+}
+
+.page_top_information_company_address2{
+    color: white;
+    font-size: 1rem;
+}
+
+.page_top_information_company_hours1{
+    color: white;
+    font-size: 1em;
+}
+
+.page_top_information_company_hours2{
+    color: white;
+    font-size: 1rem;
+}
+
+.page_top_information_company_tel{
+    color: white;
+    font-size: 1rem;
+}
+
+.page_top_information_company_tel span{
+    color: white;
+    font-size: 1.5rem;
+}

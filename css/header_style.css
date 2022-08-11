@@ -10,17 +10,17 @@
 .page_logo_img{
     width: 20%;
     height:auto;
-    margin-left: 32px; 
+    margin-left: 3em; 
     margin-right: auto;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .reservation_btn {
     width: 24%;
     height:auto;
     margin-left: auto; 
-    margin-right: 32px;
+    margin-right: 3em;
     border-radius: 50px;
     background-color: RGB(153,0,0);
     color: white;
@@ -29,7 +29,7 @@
 }
 
 .reservation_btn:hover{
-    background-color: rgb(170,0,0);
+    background-color: rgb(200,0,0);
 }
 
 .header_menu_bar li{
