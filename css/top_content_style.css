@@ -1,6 +1,7 @@
 .top_page_container{
     width: 100%;
     height:auto;
+    display: flex;
     flex-direction: column;
 }
 
@@ -27,4 +28,52 @@
     display:block;
     font-size: 1rem;
     color: #e4bc2e;
+}
+
+.page_top_circle_img_parent{
+    flex-direction: row;
+    background-color: RGB(0,0,0);
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle_img_salon{
+    width: 30%;
+    height: 15em;
+    background-image: url('../img/link_salon.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_img_menu{
+    width: 30%;
+    height: 15em;
+    background-image: url('../img/link_menu.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_img_note{
+    width: 30%;
+    height: 15em;
+    background-image: url('../img/link_notes.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
