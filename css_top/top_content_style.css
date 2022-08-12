@@ -209,6 +209,7 @@
     flex-direction: row;
     display: flex;
     align-items: center;
+    text-align: left;
 }
 
 .page_top_information_address{
