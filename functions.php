@@ -18,6 +18,16 @@ function add_stylesheet(){
     );
     
 }
+
+function google_fonts() {
+    wp_enqueue_style( 
+        'google-fonts', 
+        'https://fonts.googleapis.com/css?family=Noto+Serif+JP', 
+        false 
+    );
+}
+
 add_action('wp_enqueue_scripts', 'add_stylesheet');
+add_action('wp_enqueue_scripts', 'google_fonts');
 
 ?>
