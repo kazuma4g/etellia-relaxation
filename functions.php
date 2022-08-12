@@ -32,6 +32,11 @@ function add_stylesheet(){
     );
 
     wp_enqueue_style(
+        'footer_style',
+        get_stylesheet_directory_uri().'/css_footer/footer_style.css'
+    );
+
+    wp_enqueue_style(
         'top_page_content_style',
         get_stylesheet_directory_uri().'/css_top/top_content_style.css'
     );

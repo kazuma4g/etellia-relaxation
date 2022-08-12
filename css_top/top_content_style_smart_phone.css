@@ -14,50 +14,50 @@
   margin-right: 1rem;
   font-size: 2rem;
   color: white;
-}
+  }
 
 .page_top_img_text span{
   display:block;
   font-size: 0.8rem;
   color: #e4bc2e;
-}
+  }
 
 .page_top_information_company_name{
   color: white;
   font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_address1{
   color: white;
   font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_address2{
   color: white;
   font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_hours1{
 color: white;
 font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_hours2{
 color: white;
 font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_tel{
 color: white;
 font-size: 0.8rem;
-}
+  }
 
 .page_top_information_company_tel span{
 color: white;
 font-size: 1rem;
-}
-    
   }
+    
+}
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
