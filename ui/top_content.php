@@ -7,9 +7,9 @@
     </div>
     <div class="page_top_circle_img_parent">
         <div class="circle_img_salon">
-            <div class="circle_img_salon_filter" onclick="location.href='index.php';">
+            <div class="circle_img_salon_filter" onclick="location.href='./about.php';">
                 <div class="circle_img_salon_text">
-                    <a href="#">Salon</a>
+                    <a href="./about.php">Salon</a>
                 </div>
             </div>
         </div>

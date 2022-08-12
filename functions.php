@@ -76,5 +76,6 @@ add_action('wp_enqueue_scripts', 'add_pc_stylesheet_files');
 add_action('wp_enqueue_scripts', 'add_smart_phone_stylesheet_files');
 add_action('wp_enqueue_scripts', 'add_tablet_stylesheet_files');
 add_action('wp_enqueue_scripts', 'google_fonts');
+add_filter('show_admin_bar','__return_false');
 
 ?>
