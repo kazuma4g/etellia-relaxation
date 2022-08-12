@@ -46,6 +46,11 @@ function add_smart_phone_stylesheet_files(){
         'top_page_content_style_smart_phone',
         get_stylesheet_directory_uri().'/css_smart_phone/top_content_style_smart_phone.css'
     );
+
+    wp_enqueue_style(
+        'footer_style_smart_phone',
+        get_stylesheet_directory_uri().'/css_smart_phone/footer_style_smart_phone.css'
+    );
 }
 
 function add_tablet_stylesheet_files(){
