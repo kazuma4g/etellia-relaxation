@@ -1,0 +1,42 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    body{
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .main_content {
+        width: 100%;
+        background-color: RGB(255,255,255);
+        text-align: center;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body{
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .main_content {
+        width: 100%;
+        background-color: RGB(255,255,255);
+        text-align: center;
+    }
+    
+  }
+  

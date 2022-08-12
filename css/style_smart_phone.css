@@ -1,0 +1,41 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    body{
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .main_content {
+        width: 100%;
+        background-color: RGB(255,255,255);
+        text-align: center;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    body{
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .main_content {
+        width: 100%;
+        background-color: RGB(255,255,255);
+        text-align: center;
+    }
+    
+  }

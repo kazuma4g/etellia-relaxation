@@ -1,0 +1,61 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .page_top_information_text1{
+        font-size: 2rem;
+    }
+
+    .page_top_img_text{
+      flex-direction: column;
+      margin-right: 1rem;
+      font-size: 2rem;
+      color: white;
+    }
+
+    .page_top_img_text span{
+      display:block;
+      font-size: 0.8rem;
+      color: #e4bc2e;
+    }
+
+    .page_top_information_company_name{
+      color: white;
+      font-size: 0.5rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .page_top_information_text1{
+        font-size: 2rem;
+    }
+
+    .page_top_img_text{
+      flex-direction: column;
+      margin-right: 1rem;
+      font-size: 2rem;
+      color: white;
+    }
+
+    .page_top_img_text span{
+      display:block;
+      font-size: 0.8rem;
+      color: #e4bc2e;
+    }
+    
+    .page_top_information_company_name{
+      color: white;
+      font-size: 0.5rem;
+    }
+
+  }
