@@ -17,22 +17,7 @@
         justify-content:right;
     }
 
-    .hamburger-menu {
-        width: 3em;
-        height: 3em;
-        display: block;
-        border: none;
-        padding: 0px;
-        margin-right: 4em;
-        background: linear-gradient(
-          to bottom, 
-          black, black 20%, 
-          white 20%, white 40%, 
-          black 40%, black 60%, 
-          white 60%, white 80%, 
-          black 80%, black 100%
-        );
-    }
+    
 
   }
   
@@ -55,21 +40,6 @@
         justify-content:right;
     }
 
-    .hamburger-menu {
-        width: 3em;
-        height: 3em;
-        display: block;
-        border: none;
-        padding: 0px;
-        margin-right: 4em;
-        background: linear-gradient(
-          to bottom, 
-          black, black 20%, 
-          white 20%, white 40%, 
-          black 40%, black 60%, 
-          white 60%, white 80%, 
-          black 80%, black 100%
-        );
-    }
+    
 
   }
