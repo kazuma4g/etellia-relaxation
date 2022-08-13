@@ -10,6 +10,7 @@ hamburger.addEventListener("click", () => {
         enableScroll();
         isActive = false;
     }else {
+        window.scrollTo(0, 0);
         disableScroll();
         isActive = true;
     }
