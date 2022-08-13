@@ -17,7 +17,6 @@ function add_stylesheet(){
         'main_style', 
         get_stylesheet_directory_uri().'/style.css' 
     );
-
     
 }
 
@@ -46,6 +45,11 @@ function add_smart_phone_stylesheet_files(){
     );
 
     wp_enqueue_style(
+        'header_style_smart_phone',
+        get_stylesheet_directory_uri().'/css_smart_phone/header_style_smart_phone.css'
+    );
+
+    wp_enqueue_style(
         'top_page_content_style_smart_phone',
         get_stylesheet_directory_uri().'/css_smart_phone/top_content_style_smart_phone.css'
     );
@@ -60,6 +64,11 @@ function add_tablet_stylesheet_files(){
     wp_enqueue_style( 
         'tablet_main_style', 
         get_stylesheet_directory_uri().'/css_tablet/style_tablet.css' 
+    );
+
+    wp_enqueue_style( 
+        'tablet_header_style', 
+        get_stylesheet_directory_uri().'/css_tablet/header_style_tablet.css' 
     );
 }
 
