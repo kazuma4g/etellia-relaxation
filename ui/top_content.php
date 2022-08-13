@@ -14,14 +14,14 @@
             </div>
         </div>
         <div class="circle_img_menu">
-            <div class="circle_img_menu_filter" onclick="location.href='index.php';">
+            <div class="circle_img_menu_filter" onclick="location.href='<?= get_site_url(); ?>';">
                 <div class="circle_img_menu_text" >
                     <a href="#">Menu</a>
                 </div>
             </div>
         </div>
         <div class="circle_img_note">
-            <div class="circle_img_note_filter" onclick="location.href='index.php';">
+            <div class="circle_img_note_filter" onclick="location.href='<?= get_site_url(); ?>';">
                 <div class="circle_img_note_text">
                     <a href="#">Notes</a>
                 </div> 
