@@ -1,7 +1,5 @@
 <?php
 
-
-
 function add_reset_stylesheet(){
 
     wp_enqueue_style( 
