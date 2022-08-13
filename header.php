@@ -13,17 +13,19 @@
         </button>
     </div>
     <div class="header_menu_bar">
-        <nav>
-            <ul>
-                <li><a href="<?= get_site_url(); ?>">トップ</a></li>
-                <li><a href="<?= get_site_url(); ?>/about/">サロンについて</a></li>
-                <li><a href="#">メニュー</a></li>
-                <li><a href="#">注意事項</a></li>
-                <li><a href="#">求人情報</a></li>
+        <nav class="navbar">
+            <ul class="nav_menu">
+                <li class="nav_item"><a  href="<?= get_site_url(); ?>">トップ</a></li>
+                <li class="nav_item"><a href="<?= get_site_url(); ?>/about/">サロンについて</a></li>
+                <li class="nav_item"><a href="#">メニュー</a></li>
+                <li class="nav_item"><a href="#">注意事項</a></li>
+                <li class="nav_item"><a href="#">求人情報</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-    </div>
-    <div class="header_menu_icon_parent">
-        
     </div>
 </header>
