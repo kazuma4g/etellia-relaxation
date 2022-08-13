@@ -22,6 +22,22 @@
   color: #e4bc2e;
   }
 
+  .circle_img_salon_text a{
+    font-size: 2rem;
+    }
+
+  .circle_img_menu_text a{
+    font-size: 2rem;
+    }
+
+  .circle_img_note_text a{
+    font-size: 2rem;
+    }
+
+  .page_top_information_text2{
+    font-size: 0.8rem;
+  }
+
 .page_top_information_company_name{
   color: white;
   font-size: 0.8rem;
@@ -81,6 +97,22 @@ font-size: 1rem;
       display:block;
       font-size: 0.8rem;
       color: #e4bc2e;
+    }
+
+    .circle_img_salon_text a{
+      font-size: 2rem;
+      }
+  
+    .circle_img_menu_text a{
+      font-size: 2rem;
+      }
+  
+    .circle_img_note_text a{
+      font-size: 2rem;
+      }
+
+    .page_top_information_text2{
+      font-size: 0.8rem;
     }
     
     .page_top_information_company_name{
