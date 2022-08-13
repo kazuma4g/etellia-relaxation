@@ -13,5 +13,6 @@
         <?php get_template_part('/ui/top_content'); ?>
         <?php get_footer(); ?>
     </div>
+<?php wp_footer(); ?>
 </body>
 </html>
