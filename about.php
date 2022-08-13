@@ -1,3 +1,8 @@
+<?php
+/**　　　　　　　　　　　　　　　　　
+ * Template Name: About Salon
+ */
+?>
 <!DOCTYPE html>
 <html lang="jp">
 <head>

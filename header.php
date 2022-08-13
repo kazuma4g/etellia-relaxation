@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">トップ</a></li>
-                <li><a href="about.php">サロンについて</a></li>
+                <li><a href="#">サロンについて</a></li>
                 <li><a href="#">メニュー</a></li>
                 <li><a href="#">注意事項</a></li>
                 <li><a href="#">求人情報</a></li>

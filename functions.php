@@ -1,5 +1,7 @@
 <?php
 
+
+
 function add_reset_stylesheet(){
 
     wp_enqueue_style( 
@@ -15,6 +17,7 @@ function add_stylesheet(){
         'main_style', 
         get_stylesheet_directory_uri().'/style.css' 
     );
+
     
 }
 
