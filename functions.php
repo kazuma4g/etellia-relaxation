@@ -83,6 +83,11 @@ function add_tablet_stylesheet_files(){
         'tablet_top_content_style', 
         get_stylesheet_directory_uri().'/css_tablet/top_content_style_tablet.css' 
     );
+
+    wp_enqueue_style( 
+        'tablet_about_style', 
+        get_stylesheet_directory_uri().'/css_tablet/about_style_tablet.css' 
+    );
 }
 
 function add_java_script_files(){

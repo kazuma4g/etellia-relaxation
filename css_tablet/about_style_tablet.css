@@ -1,0 +1,44 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about_us_content1_img{
+        width: 24vw;
+        height:24vw;
+    }
+    .about_us_content2_img{
+        width: 23vw;
+        height: 23vw;
+        margin-right: 1em;
+    }
+    
+    .about_us_content2_parent{
+        margin-top: -4rem;
+    }
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .about_us_content1_img{
+        width: 24vw;
+        height:24vw;
+    }
+    .about_us_content2_img{
+        width: 23vw;
+        height: 23vw;
+        margin-right: 1em;
+    }
+    
+    .about_us_content2_parent{
+        margin-top: -4rem;
+    }
+  }
+  
