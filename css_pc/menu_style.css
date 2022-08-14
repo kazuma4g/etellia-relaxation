@@ -1,0 +1,55 @@
+.menu_content_parent{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+
+.menu_top_img_parent{
+    width: 100%;
+    height: 28rem;
+    background-image: url('../img/page_top.jpg');
+    background-size: cover;
+}
+
+.menu_top_img_text{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 3.2em;
+}
+
+.menu_top_img_filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.menu_facial_parent{
+    width: 100%;
+    height: 28rem;
+}
+
+.facial_menu_title_parent{
+    width: 90%;
+    height:10%;
+    background-color: RGB(0,0,0);
+    border-bottom: 1px solid rgb(173,0,0);
+    margin-right: 2em;
+    margin-left: 2.5em;
+}
+
+.facial_menu_title{
+    color: rgb(255,255,255);
+    margin-top: 1.2em;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.facial_menu_title span{
+    margin-left: 2em;
+    font-size: 1.2rem;
+}

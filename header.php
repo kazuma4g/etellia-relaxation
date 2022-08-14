@@ -17,7 +17,7 @@
             <ul class="nav_menu">
                 <li class="nav_item"><a  href="<?= get_site_url(); ?>">トップ</a></li>
                 <li class="nav_item"><a href="<?= get_site_url(); ?>/about/">サロンについて</a></li>
-                <li class="nav_item"><a href="#">メニュー</a></li>
+                <li class="nav_item"><a href="<?= get_site_url(); ?>/menu/">メニュー</a></li>
                 <li class="nav_item"><a href="#">注意事項</a></li>
                 <li class="nav_item"><a href="#">求人情報</a></li>
             </ul>
