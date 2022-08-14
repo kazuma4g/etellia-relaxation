@@ -6,4 +6,12 @@
             </div>
         </div>
     </div>
+    <div class="about_us_parent">
+        <div class="about_us_title_parent">
+            <div class="about_us_title">
+                サロンについて
+                <span>About us</span>
+            </div>
+        </div>
+    </div>
 </div>
