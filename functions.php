@@ -58,6 +58,11 @@ function add_smart_phone_stylesheet_files(){
     );
 
     wp_enqueue_style(
+        'about_salon_content_style_smart_phone',
+        get_stylesheet_directory_uri().'/css_smart_phone/about_salon_style_smart_phone.css'
+    );
+
+    wp_enqueue_style(
         'footer_style_smart_phone',
         get_stylesheet_directory_uri().'/css_smart_phone/footer_style_smart_phone.css'
     );

@@ -1,0 +1,43 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .about_us_content1_text{
+        font-size: 0.9rem;
+    }
+    .about_us_content2_text{
+        font-size: 0.8rem;
+    }
+    .about_us_content1_img{
+        width: 100%;
+        height: 14em;
+    }
+    .about_us_content2_img{
+        width: 80%;
+        height: 13em;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .about_us_content1_text{
+        font-size: 0.9rem;
+    }
+    .about_us_content2_text{
+        font-size: 0.8rem;
+    }
+    .about_us_content1_img{
+        width: 100%;
+        height: 14em;
+    }
+    .about_us_content2_img{
+        width: 80%;
+        height: 13em;
+    }
+  }
