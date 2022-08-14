@@ -13,9 +13,6 @@
         <?php get_template_part('/ui/top_content'); ?>
         <?php get_footer(); ?>
     </div>
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
 <?php wp_footer(); ?>
 </body>
 </html>

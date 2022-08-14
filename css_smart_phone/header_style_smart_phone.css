@@ -51,13 +51,17 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
 
+    .reservation_btn{
+        font-size: 0.6rem;
+    }
+
      .header_menu_bar{
         justify-content: right;
     }
 
     .hamburger{
         display: block;
-        margin-right: 4em;
+        margin-right: 3em;
     }
 
     .hamburger.active .bar:nth-child(2){
