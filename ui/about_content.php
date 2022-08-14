@@ -13,5 +13,9 @@
                 <span>About us</span>
             </div>
         </div>
+        <div class="about_us_content_parent">
+            
+        </div>
     </div>
+    
 </div>
