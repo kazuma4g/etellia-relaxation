@@ -89,8 +89,8 @@
 }
 
 .about_us_content1_img{
-    width: 100%;
-    height: 15em;
+    width: 20vw;
+    height: 20vw;
     background-image: url('../img/link_salon.jpg');
     background-size: cover;
     border-radius: 50%;
@@ -149,8 +149,8 @@
 }
 
 .about_us_content2_img{
-    width: 80%;
-    height: 14em;
+    width: 20vw;
+    height: 20vw;
     background-image: url('../img/page_top.jpg');
     background-size: cover;
     border-radius: 50%;

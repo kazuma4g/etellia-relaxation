@@ -22,39 +22,23 @@
   color: #e4bc2e;
   }
 
-  .circle_img_salon_text a{
-    font-size: 2rem;
-    }
-
-  .circle_img_menu_text a{
-    font-size: 2rem;
-    }
-
-  .circle_img_note_text a{
-    font-size: 2rem;
-    }
-
   .page_top_information_text2{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
 .page_top_information_company_name{
-  color: white;
   font-size: 0.8rem;
   }
 
 .page_top_information_company_address1{
-  color: white;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   }
 
 .page_top_information_company_address2{
-  color: white;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   }
 
 .page_top_information_company_hours1{
-color: white;
 font-size: 0.8rem;
   }
 
@@ -74,30 +58,36 @@ font-size: 1rem;
   }
 
 .circle_img_salon{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 29vw;
+  margin-right: 1em;
 }
 
 .circle_img_menu{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 29vw;
+  margin-right: 1em;
   }
 
 .circle_img_note{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 29vw;
   }
 
 .circle_img_salon_text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
 .circle_img_menu_text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
 .circle_img_note_text {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .page_top_information_address_parent{
+    margin-top: -5em;
   }
     
 }
@@ -110,66 +100,54 @@ font-size: 1rem;
   @media (min-width: 320px) and (max-width: 480px) {
     
     .page_top_information_text1{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .page_top_img_text{
       flex-direction: column;
       margin-right: 1rem;
-      font-size: 2rem;
+      font-size: 1.7rem;
       color: white;
     }
 
     .page_top_img_text span{
       display:block;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       color: #e4bc2e;
     }
 
-    .circle_img_salon_text a{
-      font-size: 2rem;
-      }
-  
-    .circle_img_menu_text a{
-      font-size: 2rem;
-      }
-  
-    .circle_img_note_text a{
-      font-size: 2rem;
-      }
-
     .page_top_information_text2{
-      font-size: 0.75rem;
+      font-size: 0.6rem;
     }
     
     .page_top_information_company_name{
       color: white;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
 
     .page_top_information_company_address1{
       color: white;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
   
   .page_top_information_company_address2{
       color: white;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
 
   .page_top_information_company_hours1{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     }
 
 .page_top_information_company_hours2{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     }
 
 .page_top_information_company_tel{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     }
 
 .page_top_information_company_tel span{
@@ -178,30 +156,37 @@ font-size: 1rem;
     }
 
 .circle_img_salon{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 28vw;
+  margin-right: 1em;
   }
 
 .circle_img_menu{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 28vw;
+  margin-right: 1em;
   }
 
 .circle_img_note{
-  width: 30%;
-  height: 12em;
+  width: 30vw;
+  height: 28vw;
   }
 
 .circle_img_salon_text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   }
 
 .circle_img_menu_text {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
 .circle_img_note_text {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
+
+.page_top_information_address_parent{
+  margin-top: -8em;
+}
+
 
 }
