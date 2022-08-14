@@ -8,18 +8,37 @@
         overflow-x:hidden;
     }
     .about_us_content1_text{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .about_us_content2_text{
         font-size: 0.6rem;
+        margin-right: 4em;
     }
     .about_us_content1_img{
-        width: 100%;
-        height: 14em;
+        width: 80%;
+        height: 8.5em;
     }
     .about_us_content2_img{
         width: 70%;
-        height: 9em;
+        height: 7.5em;
+        margin-top: 1em;
+    }
+    .about_us_parent{
+        height:40rem;
+    }
+    .about_us_content2_parent{
+        margin-top: -6rem;
+    }
+
+    .access_map_parent{
+        margin-top: -12rem;
+    }
+    .about_top_img_text{
+        margin-left: 2.4em;
+    }
+    .about_us_google_map{
+        width: 90%;
+        height: 80%;
     }
   }
   
@@ -34,16 +53,7 @@
     }
 
     .about_us_parent{
-        height:32rem;
-    }
-
-    .about_us_title{
-        font-size: 0.9rem;
-    }
-
-    .about_us_title span{
-        margin-left: 1em;
-        font-size: 0.6rem;
+        height:44rem;
     }
 
     .about_us_content1_parent{
@@ -51,29 +61,40 @@
     }
 
     .about_us_content2_parent{
-        margin-top: -5rem;
+        margin-top: -8rem;
     }
 
     .about_us_content1_text{
-        font-size: 0.45rem;
+        font-size: 0.5rem;
        
     }
     .about_us_content2_text{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         margin-top: -2rem;
+        margin-right: 4em;
     }
     .about_us_content1_img{
         width: 100%;
-        height: 6em;
+        height: 7em;
        
     }
     .about_us_content2_img{
-        width: 80%;
-        height: 5.5em;
+        width: 90%;
+        height: 6em;
         margin-right: 1em;
     }
 
     .access_map_parent{
-        margin-top: -12rem;
+        margin-top: -20rem;
+        height: 28rem;
+    }
+
+    .about_us_google_map{
+        width: 90%;
+        height: 70%;
+    }
+
+    .about_top_img_text{
+        margin-left: 2.4em;
     }
   }
