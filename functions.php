@@ -30,6 +30,11 @@ function add_pc_stylesheet_files(){
     );
 
     wp_enqueue_style(
+        'about_content_style_pc',
+        get_stylesheet_directory_uri().'/css_pc/about_style.css'
+    );
+
+    wp_enqueue_style(
         'footer_style_pc',
         get_stylesheet_directory_uri().'/css_pc/footer_style.css'
     );
