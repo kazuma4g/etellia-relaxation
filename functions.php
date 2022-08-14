@@ -86,15 +86,19 @@ function add_tablet_stylesheet_files(){
 }
 
 function add_java_script_files(){
+
+    if(is_front_page()){
+        wp_enqueue_script(
+            'top_images_hover_action_js',
+            get_stylesheet_directory_uri().'/js/top_img_hover.js' 
+        );
+    }
+
     wp_enqueue_script(
         'hamburger_menu_js',
         get_stylesheet_directory_uri().'/js/hamburger_menu.js' 
     );
-
-    wp_enqueue_script(
-        'top_images_hover_action_js',
-        get_stylesheet_directory_uri().'/js/top_img_hover.js' 
-    );
+    
 }
 
 function google_fonts() {
@@ -104,6 +108,7 @@ function google_fonts() {
         false 
     );
 }
+
 
 add_action('wp_enqueue_scripts', 'add_reset_stylesheet');
 add_action('wp_enqueue_scripts', 'add_stylesheet');
