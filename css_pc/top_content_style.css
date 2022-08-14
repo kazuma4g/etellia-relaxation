@@ -65,6 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .circle_img_salon_filter:hover{
@@ -76,6 +77,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .circle_img_menu{
     width: 30%;
@@ -93,6 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .circle_img_menu_filter:hover{
@@ -122,6 +125,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .circle_img_note_filter:hover{
@@ -134,17 +138,17 @@
     justify-content: center;
 }
 
-.circle_img_salon_text a{
+.circle_img_salon_text {
     font-size: 3rem;
     color: white;
 }
 
-.circle_img_menu_text a{
+.circle_img_menu_text {
     font-size: 3rem;
     color: white;
 }
 
-.circle_img_note_text a{
+.circle_img_note_text {
     font-size: 3rem;
     color: white;
 }
@@ -197,6 +201,7 @@
     color: white;
     padding-top: 16px;
     padding-bottom: 16px;
+    cursor: pointer;
 }
 
 .info_reservation_btn:hover{

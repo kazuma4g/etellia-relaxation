@@ -75,6 +75,11 @@ function add_java_script_files(){
         'hamburger_menu_js',
         get_stylesheet_directory_uri().'/js/hamburger_menu.js' 
     );
+
+    wp_enqueue_script(
+        'top_images_hover_action_js',
+        get_stylesheet_directory_uri().'/js/top_img_hover.js' 
+    );
 }
 
 function google_fonts() {
