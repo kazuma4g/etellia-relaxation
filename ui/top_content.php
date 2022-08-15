@@ -36,12 +36,9 @@
                 多数のメニューを取り揃えております。</br>
                 ゆったり静かな空間で、日頃のお疲れを解消しませんか？
             </div>
-            <button 
-                type="button" 
-                class="info_reservation_btn"
-                onclick="window.location.href='index.php'">
-                ご予約はこちら
-            </button>
+            <?php 
+                require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+            ?>
         </div>
         <div class="page_top_information_address_parent">
             <div class="page_top_information_address">
