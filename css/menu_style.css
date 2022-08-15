@@ -11,26 +11,6 @@
     height: 36rem;
 }
 
-.facial_menu_title_parent{
-    width: 90%;
-    height:10%;
-    background-color: RGB(0,0,0);
-    border-bottom: 1px solid rgb(173,0,0);
-    margin-right: 2em;
-    margin-left: 2em;
-}
-
-.facial_menu_title{
-    color: rgb(255,255,255);
-    margin-top: 1.2em;
-    font-size: 1.6rem;
-    text-align: left;
-}
-
-.facial_menu_title span{
-    margin-left: 2em;
-    font-size: 1.2rem;
-}
 
 .facial_menu_text_parent{
     width: 90%;

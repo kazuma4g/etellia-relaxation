@@ -1,7 +1,6 @@
 <?php 
 
 $cutom_title_main = '';
-$custom_title_sub = '';
 
 function getTitle($title_str){
     if($title_str == 'about_us'){
@@ -13,7 +12,9 @@ function getTitle($title_str){
            </div>
        </div>
        HTML;
-    } else if($title_str == 'access_map'){
+    } 
+    
+    if($title_str == 'access_map'){
         echo <<<HTML
         <div class="title_parent">
            <div class="custom_title">
@@ -23,6 +24,18 @@ function getTitle($title_str){
        </div>
        HTML;
     }
+
+    if($title_str == 'facial'){
+        echo <<<HTML
+        <div class="title_parent">
+           <div class="custom_title">
+                フェイシャル
+                <span>Facial</span>
+           </div>
+       </div>
+       HTML;
+    }
+
 }
 
 ?>
