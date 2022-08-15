@@ -1,0 +1,14 @@
+.c_reservation_btn {
+    width: 25%;
+    height:auto;
+    border-radius: 50px;
+    background-color: RGB(173,0,0);
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.c_reservation_btn:hover{
+    background-color: rgb(200,0,0);
+}

@@ -114,16 +114,12 @@
         text-align: center;
         transition: 0.3s;
     }
-
     .nav_item {
         margin: 16px 0;
     }
-
     .nav_menu.active {
         Left: 0;
     }
-
-    
   }
   
   /* 

@@ -54,12 +54,9 @@
                 </div>
             </div>
             <div class="menu_reservation_btn_1_parent">
-                <button 
-                    type="button" 
-                    class="menu_reservation_btn1"
-                    onclick="window.location.href='<?= get_site_url(); ?>'">
-                    ご予約はこちら
-                </button>
+            <?php 
+                require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+            ?>
             </div>
         </div>
         <div class="menu_body_parent">
