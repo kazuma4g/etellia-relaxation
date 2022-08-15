@@ -1,6 +1,10 @@
+<?php 
+    require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+    require dirname(dirname(__FILE__))."./components/top_img.php";
+?>
 <div class="menu_content_parent">
     <?php 
-        require dirname(dirname(__FILE__))."./components/top_img.php";
+        createTopImage();
     ?>
     <div class="menu_facial_parent">
         <div class="facial_menu_title_parent">
@@ -55,7 +59,7 @@
             </div>
             <div class="menu_reservation_btn_1_parent">
             <?php 
-                require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+                createReservationButton();
             ?>
             </div>
         </div>

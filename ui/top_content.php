@@ -1,3 +1,6 @@
+<?php 
+    require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+?>
 <div class="top_page_container">
     <div class="page_top_img_parent">
         <div class="page_top_img_text">
@@ -12,7 +15,7 @@
             </div>
         </div>
         <div class="circle_img_menu">
-            <div class="circle_img_menu_filter" onclick="location.href='<?= get_site_url(); ?>';">
+            <div class="circle_img_menu_filter" onclick="location.href='<?= get_site_url(); ?>/menu/';">
                 <a class="circle_img_menu_text" href="<?= get_site_url(); ?>/menu/">Menu</a>
             </div>
         </div>
@@ -37,7 +40,7 @@
                 ゆったり静かな空間で、日頃のお疲れを解消しませんか？
             </div>
             <?php 
-                require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+                createReservationButton();
             ?>
         </div>
         <div class="page_top_information_address_parent">

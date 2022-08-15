@@ -1,10 +1,13 @@
+<?php 
+require dirname(dirname(__FILE__))."./components/top_img.php";
+require dirname(dirname(__FILE__))."./components/title_red_border.php";
+?>
 <div class="about_parent">
     <?php 
-    require dirname(dirname(__FILE__))."./components/top_img.php";
+    createTopImage();
     ?>
     <div class="about_us_parent">
         <?php 
-        require dirname(dirname(__FILE__))."./components/title_red_border.php";
         getTitle('about_us');
         ?>
         <div class="about_us_content_parent">
