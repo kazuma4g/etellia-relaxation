@@ -16,6 +16,7 @@
     <div class="main_content">
         <?php get_header(); ?>
         <?php get_template_part('/ui/menu_content'); ?>
+        <?php get_footer(); ?>
     </div>
 <?php wp_footer(); ?>
 </body>

@@ -67,12 +67,17 @@
             </div>
         </div>
         <div class="menu_body_parent">
-        <div class="body_menu_title_parent">
-            <div class="body_menu_title">
-                ボディ
-                <span>Body</span>
+            <div class="body_menu_title_parent">
+                <div class="body_menu_title">
+                    ボディ
+                    <span>Body</span>
+                </div>
             </div>
+            <div class="body_menu_text_parent">
+                <div class="body_menu_text1">
+                    蒸しタオルでの温湿布やタオルを使って、凝り固まった筋肉をほぐします。<br />
+                    凝りがひどく辛いという方にお勧めです!
+                </div>
             </div>
-        </div>
     </div>
 </div>

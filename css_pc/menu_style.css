@@ -64,11 +64,28 @@
     align-items: center;
 }
 
+.body_menu_text_parent{
+    width: 90%;
+    height:10%;
+    margin-right: 2em;
+    margin-left: 2.5em;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
 .facial_menu_text1{
     color: white;
     text-align: left;
     padding-top: 2em;
     font-size: 1.1rem;
+}
+
+.body_menu_text1{
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 1em;
 }
 
 .facial_menu_list_parent{
