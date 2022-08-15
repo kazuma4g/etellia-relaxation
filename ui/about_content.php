@@ -3,12 +3,10 @@
     require dirname(dirname(__FILE__))."./components/top_img.php";
     ?>
     <div class="about_us_parent">
-        <div class="about_us_title_parent">
-            <div class="about_us_title">
-                サロンについて
-                <span>About us</span>
-            </div>
-        </div>
+        <?php 
+        require dirname(dirname(__FILE__))."./components/title_red_border.php";
+        getTitle('about_us');
+        ?>
         <div class="about_us_content_parent">
             <div class="about_us_content1_parent">
                 <div class="about_us_content1_img_parent">
@@ -57,12 +55,9 @@
         </div>
     </div>
     <div class="access_map_parent">
-        <div class="access_map_title_parent">
-            <div class="access_map_title">
-                アクセスマップ
-                <span>Access map</span>
-            </div>
-        </div>
+        <?php 
+            getTitle('access_map');
+        ?>
         <div class="about_us_google_map_parent">
          <iframe 
             class="about_us_google_map"

@@ -49,6 +49,11 @@ function add_pc_stylesheet_files(){
         get_stylesheet_directory_uri().'/css_pc/top_img_style.css'
     );
 
+    wp_enqueue_style(
+        'title_red_border_style_pc',
+        get_stylesheet_directory_uri().'/css_pc/title_red_border_style.css'
+    );
+
 }
 
 function add_smart_phone_stylesheet_files(){
