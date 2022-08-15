@@ -1,3 +1,13 @@
+.menu_description_parent{
+    width: 90%;
+    height:10%;
+    margin-right: 2em;
+    margin-left: 2.5em;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
 .menu_description{
     color: white;
     text-align: left;

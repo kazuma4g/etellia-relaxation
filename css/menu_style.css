@@ -8,42 +8,7 @@
 
 .menu_facial_parent{
     width: 100%;
-    height: 36rem;
-}
-
-
-.facial_menu_text_parent{
-    width: 90%;
-    height:10%;
-    margin-right: 2em;
-    margin-left: 2.5em;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.body_menu_text_parent{
-    width: 90%;
-    height:10%;
-    margin-right: 2em;
-    margin-left: 2.5em;
-    display: flex;
-    justify-content: left;
-    align-items: top;
-}
-
-.facial_menu_text1{
-    color: white;
-    text-align: left;
-    padding-top: 2em;
-    font-size: 1.1rem;
-}
-
-.body_menu_text1{
-    color: white;
-    text-align: left;
-    font-size: 1.1rem;
-    margin-top: 1em;
+    height: auto;
 }
 
 .facial_menu_list_parent{
@@ -56,25 +21,6 @@
     margin-top: 2em;
     font-size: 1.2rem;
 }
-
-.smaller_facial_parent{
-    width: 100%;
-    height: 33.333%;
-    border-bottom: dashed 1px white;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-}
-
-.smaller_adjustment_parent{
-    width: 100%;
-    height: 33.333%;
-    border-bottom: dashed 1px white;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-}
-
 .prasma_shower_parent{
     width: 100%;
     height: 33.333%;
@@ -82,67 +28,6 @@
     display: flex;
     justify-content: space-between;
     align-items: top;
-}
-
-.smaller_facial_title{
-    color: white;
-    font-size: 1.3rem;
-}
-
-.smaller_facial_price_list_parent{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em;
-}
-.smaller_facial_price1{
-    color: white;
-    text-align: right;
-}
-.smaller_facial_price1 span{
-    margin-left: 2em;
-}
-.smaller_facial_price2{
-    color: white;
-    text-align: right;
-}
-.smaller_facial_price2 span{
-    margin-left: 2em;
-}
-.smaller_facial_price3{
-    color: white;
-    text-align: right;
-}
-.smaller_facial_price3 span{
-    margin-left: 2em;
-}
-
-.smaller_adjustment_title{
-    color: white;
-    font-size: 1.3rem;
-    margin-top: 0.6em;
-}
-.smaller_adjustment_price_list_parent{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2em;
-}
-.smaller_adjustment_price1{
-    color: white;
-    text-align: right;
-}
-.smaller_adjustment_price1 span{
-    margin-left: 2.6em;
-}
-.smaller_adjustment_price2{
-    color: white;
-    text-align: right;
-}
-.smaller_adjustment_price2 span{
-    margin-left: 2em;
 }
 
 .prasma_shower_title{
@@ -180,46 +65,10 @@
     justify-content: center;
     align-items: center;
 }
-.menu_reservation_btn1{
-    width: 30%;
-    height:auto;
-    border-radius: 50px;
-    background-color: RGB(173,0,0);
-    color: white;
-    margin-top: 3em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    cursor: pointer;
-}
-.menu_reservation_btn1:hover{
-    background-color: RGB(200,0,0);
-}
 
 .menu_body_parent{
     width: 100%;
-    height: 36rem;
-    margin-top: 3rem;
-}
-
-.body_menu_title_parent{
-    width: 90%;
-    height:10%;
-    background-color: RGB(0,0,0);
-    border-bottom: 1px solid rgb(173,0,0);
-    margin-right: 2em;
-    margin-left: 2em;
-}
-
-.body_menu_title{
-    color: rgb(255,255,255);
-    margin-top: 1.2em;
-    font-size: 1.6rem;
-    text-align: left;
-}
-
-.body_menu_title span{
-    margin-left: 2em;
-    font-size: 1.2rem;
+    height: auto;
 }
 
 /* 
@@ -269,176 +118,29 @@
   }
   
   @media (min-width: 550px) and (max-width: 603px) {
-    body{
-        overflow-x:hidden;
-    }
-    .facial_menu_text1{
-        font-size: 0.8rem;
-        padding-top: 2em;
-    }
-    .smaller_facial_price_list_parent{
-      font-size: 0.9rem;
-      margin-right: 1.5em;
-      margin-top: 2.8em;
-    }
-    .smaller_adjustment_price_list_parent{
-      font-size: 0.9rem;
-      margin-right: 1.5em;
-      margin-top: 2.8em;
-    }
-    .prasma_shower_price_list_parent{
-      font-size: 0.9rem;
-      margin-right: 1.5em;
-      margin-top: 2.8em;
-    }
+   
   }
   
   @media (min-width: 481px) and (max-width: 550px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.7rem;
-          padding-top: 2em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.5em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.5em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.5em;
-      }
+      
     }
      
     @media (min-width: 450px) and (max-width: 480px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.65rem;
-          padding-top: 1em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.8em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.8em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.8rem;
-        margin-right: 1.5em;
-        margin-top: 3.8em;
-      }
+      
     }
   
     @media (min-width: 408px) and (max-width: 450px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.6rem;
-          padding-top: 1em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.7rem;
-        margin-right: 1.5em;
-        margin-top: 5.2em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.7rem;
-        margin-right: 1.5em;
-        margin-top: 5.2em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.7rem;
-        margin-right: 1.5em;
-        margin-top: 5.2em;
-      }
+      
     }
   
     @media (min-width: 391px) and (max-width: 408px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.55rem;
-          padding-top: 0.5em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.7rem;
-        margin-right: 1.5em;
-        margin-top: 5em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.65rem;
-        margin-right: 1.5em;
-        margin-top: 5em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.65rem;
-        margin-right: 1.5em;
-        margin-top: 5em;
-      }
+      
     }
   
     @media (min-width: 348px) and (max-width: 391px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.5rem;
-          padding-top: 1em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.62rem;
-        margin-right: 1.5em;
-        margin-top: 6em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.6rem;
-        margin-right: 1.5em;
-        margin-top: 6em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.6rem;
-        margin-right: 1.5em;
-        margin-top: 6em;
-      }
+      
     }
   
     @media (min-width: 320px) and (max-width: 348px) {
-      body{
-          overflow-x:hidden;
-      }
-      .facial_menu_text1{
-          font-size: 0.48rem;
-          padding-top: 1em;
-      }
-      .smaller_facial_price_list_parent{
-        font-size: 0.58rem;
-        margin-right: 2em;
-        margin-top: 7em;
-      }
-      .smaller_adjustment_price_list_parent{
-        font-size: 0.58rem;
-        margin-right: 2em;
-        margin-top: 7em;
-      }
-      .prasma_shower_price_list_parent{
-        font-size: 0.58rem;
-        margin-right: 2em;
-        margin-top: 7em;
-      }
+     
     }

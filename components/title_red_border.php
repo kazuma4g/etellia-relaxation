@@ -36,6 +36,17 @@ function getTitle($title_str){
        HTML;
     }
 
+    if($title_str == 'body'){
+        echo <<<HTML
+        <div class="title_parent">
+           <div class="custom_title">
+                ボディ
+                <span>Body</span>
+           </div>
+       </div>
+       HTML;
+    }
+
 }
 
 ?>

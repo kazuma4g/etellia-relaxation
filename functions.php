@@ -56,6 +56,11 @@ function add_components_stylesheet(){
             'menu_description_style_pc',
             get_stylesheet_directory_uri().'/css_components/menu_description_style.css'
         );
+
+        wp_enqueue_style(
+            'facial_menu_style_pc',
+            get_stylesheet_directory_uri().'/css_components/facial_menu_style.css'
+        );
     }
 
     wp_enqueue_style(
