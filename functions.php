@@ -44,6 +44,11 @@ function add_pc_stylesheet_files(){
         get_stylesheet_directory_uri().'/css_pc/footer_style.css'
     );
 
+    wp_enqueue_style(
+        'top_img_style_pc',
+        get_stylesheet_directory_uri().'/css_pc/top_img_style.css'
+    );
+
 }
 
 function add_smart_phone_stylesheet_files(){
@@ -138,5 +143,4 @@ add_action('wp_enqueue_scripts', 'add_tablet_stylesheet_files');
 add_action('wp_footer', 'add_java_script_files');
 add_action('wp_enqueue_scripts', 'google_fonts');
 add_filter('show_admin_bar','__return_false');
-
 ?>

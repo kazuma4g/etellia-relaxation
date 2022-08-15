@@ -1,0 +1,21 @@
+.top_img_parent{
+    width: 100%;
+    height: 28rem;
+    background-image: url('../img/page_top.jpg');
+    background-size: cover;
+}
+
+.top_img_text{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 3.2em;
+}
+
+.top_img_filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
