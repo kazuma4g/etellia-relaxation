@@ -46,16 +46,33 @@
                     </div>
                 </div>
             <div class="prasma_shower_parent">
-                
+                <div class="prasma_shower_title">プラズマシャワー</div>
+                    <div class="prasma_shower_price_list_parent">
+                        <div class="prasma_shower_price1">
+                            30分<span>¥6,000</span>
+                        </div>
+                        <div class="prasma_shower_price2">
+                            60分<span>¥11,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_reservation_btn_1_parent">
+                <button 
+                    type="button" 
+                    class="menu_reservation_btn1"
+                    onclick="window.location.href='<?= get_site_url(); ?>'">
+                    ご予約はこちら
+                </button>
             </div>
         </div>
-        <div class="menu_reservation_btn_1_parent">
-            <button 
-                type="button" 
-                class="menu_reservation_btn1"
-                onclick="window.location.href='<?= get_site_url(); ?>'">
-                ご予約はこちら
-            </button>
+        <div class="menu_body_parent">
+        <div class="body_menu_title_parent">
+            <div class="body_menu_title">
+                ボディ
+                <span>Body</span>
+            </div>
+            </div>
         </div>
     </div>
 </div>
