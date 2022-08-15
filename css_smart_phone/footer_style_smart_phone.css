@@ -19,11 +19,20 @@
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 384px) and (max-width: 480px) {
     .copy_right_text{
         color: white;
         width: 100%;
         height: auto;
         font-size: 0.7rem;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 384px) {
+    .copy_right_text{
+        color: white;
+        width: 100%;
+        height: auto;
+        font-size: 0.65rem;
     }
   }

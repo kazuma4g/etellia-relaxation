@@ -52,7 +52,7 @@
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 395px) and (max-width: 480px) {
     body{
         overflow-x:hidden;
     }
@@ -75,7 +75,7 @@
     }
 
     .about_us_content1_text{
-        font-size: 0.5rem;
+        font-size: 0.52rem;
     }
     .about_us_content2_text{
         font-size: 0.5rem;
@@ -108,5 +108,86 @@
     .page_top_healing_space_parent{
         height: 16rem;
         overflow: hidden;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 395px) {
+    body{
+        overflow-x:hidden;
+    }
+
+    .about_us_title{
+        font-size: 0.8rem;
+    }
+
+    .about_us_title span{
+        font-size: 0.6rem;
+    }
+
+    .about_us_title_parent{
+        height: 6%;
+    }
+
+    .about_us_parent{
+        height:44rem;
+    }
+
+    .about_us_content1_parent{
+       margin-top: -1rem;
+       margin-left: -1em;
+    }
+
+    .about_us_content2_parent{
+        margin-top: -11rem;
+    }
+
+    .page_top_circle_img_parent{
+        height: 12em;
+    }
+
+    .about_us_content1_text{
+        font-size: 0.4rem;
+    }
+    .about_us_content2_text{
+        font-size: 0.4rem;
+        margin-top: -2rem;
+        margin-right: 4em;
+    }
+    .about_us_content1_img{
+        width: 24vw;
+        height:24vw;
+        margin-left: 1em;
+    }
+    .about_us_content2_img{
+        width: 23vw;
+        height: 23vw;
+        margin-right: 1em;
+    }
+
+    .access_map_parent{
+        margin-top: -27rem;
+        height: 28rem;
+    }
+
+    .about_us_google_map{
+        width: 90%;
+        height: 70%;
+    }
+
+    .about_top_img_text{
+        margin-left: 2.4em;
+    }
+    .page_top_healing_space_parent{
+        height: 16rem;
+        overflow: hidden;
+    }
+    .access_map_title{
+        font-size: 0.8rem;
+    }
+    .access_map_title span{
+        font-size: 0.6rem;
+    }
+    .access_map_title_parent{
+        height: 8%;
     }
   }
