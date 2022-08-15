@@ -1,0 +1,276 @@
+.header_parent {
+    width: 100%;
+    height:5rem;
+    background-color: RGB(0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_logo_img{
+    width: 20%;
+    height:auto;
+    margin-left: 3em; 
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.reservation_btn {
+    width: 24%;
+    height:auto;
+    margin-left: auto; 
+    margin-right: 3em;
+    border-radius: 50px;
+    background-color: RGB(173,0,0);
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.reservation_btn:hover{
+    background-color: rgb(200,0,0);
+}
+
+.nav_item{
+    list-style: none;
+}
+
+.header_menu_bar a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+.header_menu_bar a:hover {
+    color: rgb(170,0,0);
+}
+
+.header_menu_bar{
+    width: 100%;
+    height: 3rem;
+    background-color: RGB(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: black;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header_menu_bar{
+        justify-content: right;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 4em;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav_menu{
+        position: fixed;
+        Left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav_item {
+        margin: 16px 0;
+    }
+
+    .nav_menu.active {
+        Left: 0;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .header_menu_bar{
+        justify-content: right;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 4em;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav_menu{
+        position: fixed;
+        Left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav_item {
+        margin: 16px 0;
+    }
+
+    .nav_menu.active {
+        Left: 0;
+    }
+
+  }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .page_logo_img{
+        width: 25%;
+    }
+
+    .header_menu_bar{
+        justify-content: right;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 4em;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav_menu{
+        position: fixed;
+        Left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav_item {
+        margin: 16px 0;
+    }
+
+    .nav_menu.active {
+        Left: 0;
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .page_logo_img{
+        width: 30%;
+    }
+
+    .reservation_btn{
+        font-size: 0.6rem;
+    }
+
+     .header_menu_bar{
+        justify-content: right;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 3em;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav_menu{
+        position: fixed;
+        Left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav_item {
+        margin: 16px 0;
+    }
+
+    .nav_menu.active {
+        Left: 0;
+    }
+  }
