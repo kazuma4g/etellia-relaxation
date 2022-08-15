@@ -40,6 +40,7 @@ function add_stylesheet(){
 }
 
 function add_components_stylesheet(){
+   
     if(is_front_page() == false){
         wp_enqueue_style(
             'title_red_border_style_pc',
