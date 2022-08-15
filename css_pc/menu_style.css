@@ -30,7 +30,7 @@
 
 .menu_facial_parent{
     width: 100%;
-    height: 28rem;
+    height: 36rem;
 }
 
 .facial_menu_title_parent{
@@ -39,7 +39,7 @@
     background-color: RGB(0,0,0);
     border-bottom: 1px solid rgb(173,0,0);
     margin-right: 2em;
-    margin-left: 2.5em;
+    margin-left: 2em;
 }
 
 .facial_menu_title{
@@ -79,6 +79,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 2em;
+    font-size: 1.2rem;
 }
 
 .smaller_facial_parent{
@@ -94,12 +95,18 @@
     width: 100%;
     height: 33.333%;
     border-bottom: dashed 1px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
 }
 
 .prasma_shower_parent{
     width: 100%;
     height: 33.333%;
     border-bottom: dashed 1px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
 }
 
 .smaller_facial_title{
@@ -132,5 +139,54 @@
     text-align: right;
 }
 .smaller_facial_price3 span{
+    margin-left: 2em;
+}
+.menu_reservation_btn_1_parent{
+    width: 90%;
+    height:18%;
+    margin-right: 2em;
+    margin-left: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_reservation_btn1{
+    width: 30%;
+    height:auto;
+    border-radius: 50px;
+    background-color: RGB(173,0,0);
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+}
+.menu_reservation_btn1:hover{
+    background-color: RGB(200,0,0);
+}
+
+.smaller_adjustment_title{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0.6em;
+}
+.smaller_adjustment_price_list_parent{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+}
+.smaller_adjustment_price1{
+    color: white;
+    text-align: right;
+}
+.smaller_adjustment_price1 span{
+    margin-left: 2.6em;
+}
+.smaller_adjustment_price2{
+    color: white;
+    text-align: right;
+}
+.smaller_adjustment_price2 span{
     margin-left: 2em;
 }

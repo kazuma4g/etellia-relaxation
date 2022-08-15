@@ -35,11 +35,27 @@
                 </div>
             </div>
             <div class="smaller_adjustment_parent">
-                
-            </div>
+                <div class="smaller_adjustment_title">小顔矯正</div>
+                    <div class="smaller_adjustment_price_list_parent">
+                        <div class="smaller_adjustment_price1">
+                            60分<span>¥9,000</span>
+                        </div>
+                        <div class="smaller_adjustment_price2">
+                            90分<span>¥12,000</span>
+                        </div>
+                    </div>
+                </div>
             <div class="prasma_shower_parent">
                 
             </div>
+        </div>
+        <div class="menu_reservation_btn_1_parent">
+            <button 
+                type="button" 
+                class="menu_reservation_btn1"
+                onclick="window.location.href='<?= get_site_url(); ?>'">
+                ご予約はこちら
+            </button>
         </div>
     </div>
 </div>

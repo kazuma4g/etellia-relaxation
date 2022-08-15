@@ -13,7 +13,7 @@
         </div>
         <div class="circle_img_menu">
             <div class="circle_img_menu_filter" onclick="location.href='<?= get_site_url(); ?>';">
-                <a class="circle_img_menu_text" href="#">Menu</a>
+                <a class="circle_img_menu_text" href="<?= get_site_url(); ?>/menu/">Menu</a>
             </div>
         </div>
         <div class="circle_img_note">
