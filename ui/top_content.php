@@ -1,73 +1,36 @@
 <?php 
     require dirname(dirname(__FILE__))."./components/reservation_btn.php";
+    require dirname(dirname(__FILE__))."./components/top_circle_img.php";
+    require dirname(dirname(__FILE__))."./components/front_top_img.php";
+    require dirname(dirname(__FILE__))."./components/company_address_bottom.php";
+    require dirname(dirname(__FILE__))."./components/top_healing_space.php";
 ?>
 <div class="top_page_container">
-    <div class="page_top_img_parent">
-        <div class="page_top_img_text">
-            心から癒される時間と空間
-            <span> Location time and space that is healed from the bottom my heal. </span>
-        </div>
-    </div>
+    <?php 
+        createFrontTopImage();
+    ?>
     <div class="page_top_circle_img_parent">
-        <div class="circle_img_salon">
-            <div class="circle_img_salon_filter" onclick="location.href='<?= get_site_url(); ?>/about/';">
-                <a class="circle_img_salon_text" href="<?= get_site_url(); ?>/about/">Salon</a>
-            </div>
-        </div>
-        <div class="circle_img_menu">
-            <div class="circle_img_menu_filter" onclick="location.href='<?= get_site_url(); ?>/menu/';">
-                <a class="circle_img_menu_text" href="<?= get_site_url(); ?>/menu/">Menu</a>
-            </div>
-        </div>
-        <div class="circle_img_note">
-            <div class="circle_img_note_filter" onclick="location.href='<?= get_site_url(); ?>';">
-                <a class="circle_img_note_text" href="#">Notes</a>
-            </div>
-        </div>
+        <?php 
+            createTopCircleImageSalon();
+        ?>
+        <?php 
+            createTopCircleImageMenu();
+        ?>
+        <?php 
+            createTopCircleImageNote();
+        ?>
     </div>
     <div class="page_top_healing_space_parent">
         <img class="page_top_healing_space" src="<?php echo get_stylesheet_directory_uri(); ?>/img/healing_space.jpg"/>
     </div>
     <div class="page_top_information_parent">
-        <div class="page_top_information_reservation">
-            <div class="page_top_information_text1">
-                ETTELIA's healing space
-            </div>
-            <div class="page_top_information_text2">
-                当店はあなたの心と体を癒す本格リラクゼーションサロンです。</br>
-                リラクゼーション、アロママッサージ、足つぼマッサージ、ヘッドマッサージなど</br>
-                多数のメニューを取り揃えております。</br>
-                ゆったり静かな空間で、日頃のお疲れを解消しませんか？
-            </div>
-            <?php 
-                createReservationButton();
-            ?>
-        </div>
+        <?php 
+            createHealingSpace();
+        ?>
         <div class="page_top_information_address_parent">
-            <div class="page_top_information_address">
-                <div class="page_top_information_company_name">
-                    ETELLIA リラクゼーション
-                </div>
-                <hr/>
-                <div class="page_top_information_company_address1">
-                    〒111-1111
-                </div>
-                <div class="page_top_information_company_address2">
-                    千葉県松戸市松戸1-1-1 松戸ビル7F
-                </div>
-                <hr/>
-                <div class="page_top_information_company_hours1">
-                    月 - 金 10:00 ~ 20:00
-                </div>
-                <div class="page_top_information_company_hours2">
-                    土日祝 定休日
-                </div>
-                <hr/>
-                <div class="page_top_information_company_tel">
-                    TEL&nbsp;&nbsp;&nbsp; <span>047-111-1111</span>
-                </div>
-                <hr/>
-            </div>
+            <?php 
+                createCompanyInfo();
+            ?>
             <iframe 
                 class="page_top_map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12946.546667419523!2d139.9006607!3d35.7843004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69dd1692ac336e85!2z5p2-5oi46aeF!5e0!3m2!1sja!2sca!4v1660284016819!5m2!1sja!2sca" 

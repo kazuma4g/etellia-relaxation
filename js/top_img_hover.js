@@ -1,3 +1,5 @@
+
+window.addEventListener('DOMContentLoaded',function(){
 const circle_img_salon =  document.querySelector('.circle_img_salon_filter');
 const circle_text_salon = document.querySelector('.circle_img_salon_text');
 
@@ -30,3 +32,6 @@ circle_img_note.addEventListener('mouseover',() => {
 circle_img_note.addEventListener('mouseout',() => {
     circle_text_note.style.color = '#ffffff'
 })
+
+})
+
