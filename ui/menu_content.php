@@ -1,9 +1,9 @@
 <?php 
-    require dirname(dirname(__FILE__))."./components/reservation_btn.php";
-    require dirname(dirname(__FILE__))."./components/top_img.php";
-    require dirname(dirname(__FILE__))."./components/title_red_border.php";
-    require dirname(dirname(__FILE__))."./components/menu_description.php";
-    require dirname(dirname(__FILE__))."./components/facial_menu.php";
+    require dirname(dirname(__FILE__))."./components/common/reservation_btn.php";
+    require dirname(dirname(__FILE__))."./components/common/top_img.php";
+    require dirname(dirname(__FILE__))."./components/common/title_red_border.php";
+    require dirname(dirname(__FILE__))."./components/menu/menu_description.php";
+    require dirname(dirname(__FILE__))."./components/menu/facial_menu.php";
 ?>
 <div class="menu_content_parent">
     <?php 

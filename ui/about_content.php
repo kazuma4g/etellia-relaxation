@@ -1,6 +1,6 @@
 <?php 
-require dirname(dirname(__FILE__))."./components/top_img.php";
-require dirname(dirname(__FILE__))."./components/title_red_border.php";
+require dirname(dirname(__FILE__))."./components/common/top_img.php";
+require dirname(dirname(__FILE__))."./components/common/title_red_border.php";
 ?>
 <div class="about_parent">
     <?php 
