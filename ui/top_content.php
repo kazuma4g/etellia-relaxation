@@ -1,9 +1,9 @@
 <?php 
+    require dirname(dirname(__FILE__))."./components/front_page/front_top_img.php";
+    require dirname(dirname(__FILE__))."./components/front_page/top_circle_img.php";
+    require dirname(dirname(__FILE__))."./components/front_page/company_address_bottom.php";
+    require dirname(dirname(__FILE__))."./components/front_page/top_healing_space.php";
     require dirname(dirname(__FILE__))."./components/reservation_btn.php";
-    require dirname(dirname(__FILE__))."./components/top_circle_img.php";
-    require dirname(dirname(__FILE__))."./components/front_top_img.php";
-    require dirname(dirname(__FILE__))."./components/company_address_bottom.php";
-    require dirname(dirname(__FILE__))."./components/top_healing_space.php";
 ?>
 <div class="top_page_container">
     <?php 
