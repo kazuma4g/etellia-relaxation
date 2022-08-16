@@ -11,7 +11,7 @@
     ?>
     <div class="menu_facial_parent">
         <?php 
-            getTitle('facial');
+            createTitle('facial');
         ?>
          <?php 
             createMenuDescription('facial');
@@ -34,13 +34,13 @@
         </div>
         <div class="menu_body_parent">
             <?php 
-                getTitle('body');
+                createTitle('body');
             ?>
             <?php 
                 createMenuDescription('body');
             ?>
             <div class="body_menu_list_parent">
-                
+
             </div>
     </div>
 </div>

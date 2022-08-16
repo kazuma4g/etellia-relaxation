@@ -64,6 +64,11 @@ function add_components_stylesheet(){
     }
 
     wp_enqueue_style(
+        'about_us_style_pc',
+        get_stylesheet_directory_uri().'/css_components/about_us_style.css'
+    );
+
+    wp_enqueue_style(
         'reservation_btn_style_pc',
         get_stylesheet_directory_uri().'/css_components/reservation_btn_style.css'
     );

@@ -2,7 +2,7 @@
 
 $cutom_title_main = '';
 
-function getTitle($title_str){
+function createTitle($title_str){
     if($title_str == 'about_us'){
         echo <<<HTML
         <div class="title_parent">
