@@ -21,20 +21,11 @@
                 createFacialMenuItem1();
             ?>
              <?php 
-                createFacialMenuItem2('smaller_adjustment');
+                createFacialMenuItem2();
             ?>
-            <div class="prasma_shower_parent">
-                <div class="prasma_shower_title">プラズマシャワー</div>
-                    <div class="prasma_shower_price_list_parent">
-                        <div class="prasma_shower_price1">
-                            30分<span>¥6,000</span>
-                        </div>
-                        <div class="prasma_shower_price2">
-                            60分<span>¥11,000</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php 
+                createFacialMenuItem3();
+            ?>
             <div class="menu_reservation_btn_1_parent">
             <?php 
                 createReservationButton();

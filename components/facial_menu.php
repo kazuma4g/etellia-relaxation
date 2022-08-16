@@ -19,10 +19,9 @@ function createFacialMenuItem1(){
         HTML;
 }
 
-function createFacialMenuItem2($menu_type){
+function createFacialMenuItem2(){
 
-    if($menu_type == 'smaller_adjustment'){
-        echo <<<HTML
+    echo <<<HTML
         <div class="menu_item2_parent">
             <div class="menu_item2_title">小顔矯正</div>        
             <div class="menu_item2_price_list_parent">
@@ -35,7 +34,25 @@ function createFacialMenuItem2($menu_type){
             </div>
         </div>
         HTML;
-    }
+
+}
+
+function createFacialMenuItem3(){
+
+    echo <<<HTML
+        <div class="menu_item2_parent">
+            <div class="menu_item2_title">プラズマシャワー</div>
+                <div class="menu_item2_price_list_parent">
+                    <div class="menu_item2_price1">
+                        30分<span>¥6,000</span>
+                    </div>
+                    <div class="menu_item2_price2">
+                        60分<span>¥11,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        HTML;
 
 }
 
