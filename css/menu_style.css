@@ -21,41 +21,17 @@
     margin-top: 2em;
     font-size: 1.2rem;
 }
-.prasma_shower_parent{
+
+.menu_body_parent{
     width: 100%;
-    height: 33.333%;
-    border-bottom: dashed 1px white;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
+    height: auto;
 }
 
-.prasma_shower_title{
-    color: white;
-    font-size: 1.3rem;
-    margin-top: 0.6em;
+.body_menu_list_parent{
+
 }
-.prasma_shower_price_list_parent{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2em;
-}
-.prasma_shower_price1{
-    color: white;
-    text-align: right;
-}
-.prasma_shower_price1 span{
-    margin-left: 2.6em;
-}
-.prasma_shower_price2{
-    color: white;
-    text-align: right;
-}
-.prasma_shower_price2 span{
-    margin-left: 2em;
-}
+
+
 .menu_reservation_btn_1_parent{
     width: 90%;
     height:12%;
@@ -64,11 +40,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.menu_body_parent{
-    width: 100%;
-    height: auto;
 }
 
 /* 
