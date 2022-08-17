@@ -38,6 +38,21 @@
     font-size: 1.2rem;
 }
 
+.menu_foot_parent{
+  width: 100%;
+  height: auto;
+}
+
+.foot_menu_list_parent{
+  width: 90%;
+    height:60%;
+    margin-right: 2em;
+    margin-left: 2.5em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    font-size: 1.2rem;
+}
 
 .menu_reservation_btn_1_parent{
     width: 90%;
@@ -59,76 +74,13 @@
     align-items: center;
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-    
+.menu_reservation_btn_3_parent{
+  width: 90%;
+  height:12%;
+  margin-right: 2em;
+  margin-left: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  
-  
-}
-
-@media (min-width: 603px) and (max-width: 768px) {
-    body{
-        overflow-x:hidden;
-    }
-    .facial_menu_text1{
-        font-size: 0.9rem;
-        padding-top: 2em;
-    }
-    .smaller_facial_price_list_parent{
-      font-size: 0.95rem;
-      margin-right: 1.5em;
-      margin-top: 2.5em;
-    }
-    .smaller_adjustment_price_list_parent{
-      font-size: 0.95rem;
-      margin-right: 1.5em;
-      margin-top: 2.5em;
-    }
-    .prasma_shower_price_list_parent{
-      font-size: 0.95rem;
-      margin-right: 1.5em;
-      margin-top: 2.5em;
-    }
-  }
-  
-  @media (min-width: 550px) and (max-width: 603px) {
-   
-  }
-  
-  @media (min-width: 481px) and (max-width: 550px) {
-      
-    }
-     
-    @media (min-width: 450px) and (max-width: 480px) {
-      
-    }
-  
-    @media (min-width: 408px) and (max-width: 450px) {
-      
-    }
-  
-    @media (min-width: 391px) and (max-width: 408px) {
-      
-    }
-  
-    @media (min-width: 348px) and (max-width: 391px) {
-      
-    }
-  
-    @media (min-width: 320px) and (max-width: 348px) {
-     
-    }

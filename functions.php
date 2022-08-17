@@ -66,6 +66,11 @@ function add_components_stylesheet(){
             'body_menu_style',
             get_stylesheet_directory_uri().'/css_components/body_menu_style.css'
         );
+
+        wp_enqueue_style(
+            'foot_menu_style',
+            get_stylesheet_directory_uri().'/css_components/foot_menu_style.css'
+        );
     }
 
     if(is_page('about')){

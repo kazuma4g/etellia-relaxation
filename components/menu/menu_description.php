@@ -23,5 +23,16 @@ function createMenuDescription($menu_type){
         HTML;
     }
 
+    if($menu_type == 'foot'){
+        echo <<<HTML
+        <div class="menu_description_parent">
+            <div class="menu_description">
+                足を洗う&rarr;足裏マッサージ&rarr;ふくらはぎマッサージ&rarr;蒸しタオルで保温<br />
+                その後、軽くたたいてリンパの流れを促進し、むくみを改善
+            </div>
+        </div>
+        HTML;
+    }
+
 }
 ?>

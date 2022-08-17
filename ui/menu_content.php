@@ -5,6 +5,7 @@
     require dirname(dirname(__FILE__))."./components/menu/menu_description.php";
     require dirname(dirname(__FILE__))."./components/menu/facial_menu.php";
     require dirname(dirname(__FILE__))."./components/menu/body_menu.php";
+    require dirname(dirname(__FILE__))."./components/menu/foot_menu.php";
 ?>
 <div class="menu_content_parent">
     <?php 
@@ -47,6 +48,25 @@
                 createReservationButton();
             ?>
         </div>
+    </div>
+
+    <div class="menu_foot_parent">
+    <?php 
+            createTitle('foot');
+            createMenuDescription('foot');
+        ?>
+    </div>
+
+    <div class="foot_menu_list_parent">
+        <?php 
+            createFootMenu1();
+            createFootMenu2();
+        ?>
+    </div> 
+    <div class="menu_reservation_btn_3_parent">
+        <?php 
+            createReservationButton();
+        ?>
     </div>
 
 </div>

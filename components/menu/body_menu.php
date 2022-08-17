@@ -29,12 +29,12 @@ function getBodyMenuA(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2">
-                 ＜ 頭・首・肩 ＞を集中的にほぐします。
+                &lt; 頭・首・肩 &gt;を集中的にほぐします。
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
             <div class="body_menu_item_price1">
-                30分<span>¥3,000</span>
+                30分<span>&#165;3,000</span>
             </div>
         </div>
     </div>
@@ -50,12 +50,12 @@ function getBodyMenuB(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_B">
-                <nobr>＜ 頭・首・肩・背中・腰 ＞を集中的にほぐします。</nobr>
+                <nobr>&lt; 頭・首・肩・背中・腰 &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
             <div class="body_menu_item_price1">
-                60分<span>¥6,000</span>
+                60分<span>&#165;6,000</span>
             </div>
         </div>
     </div>
@@ -71,12 +71,12 @@ function getBodyMenuC(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_C">
-                <nobr>＜ 頭・首・肩・背中・腰・太もも・ふくらはぎ ＞を集中的にほぐします。</nobr>
+                <nobr>&lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
             <div class="body_menu_item_price1">
-                90分<span>¥9,000</span>
+                90分<span>&#165;9,000</span>
             </div>
         </div>
     </div>
@@ -92,12 +92,12 @@ function getBodyMenuD(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_D">
-                 <nobr>＜ 頭・首・肩・背中・腰・太もも・ふくらはぎ ＞を集中的にほぐします。</nobr>
+                 <nobr>&lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
             <div class="body_menu_item_price1">
-                120分<span>¥12,000</span>
+                120分<span>&#165;12,000</span>
             </div>
         </div>
     </div>

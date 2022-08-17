@@ -47,6 +47,17 @@ function createTitle($title_str){
        HTML;
     }
 
+    if($title_str == 'foot'){
+        echo <<<HTML
+        <div class="title_parent">
+           <div class="custom_title">
+                フットケア
+                <span>Foot</span>
+           </div>
+       </div>
+       HTML;
+    }
+
 }
 
 ?>
