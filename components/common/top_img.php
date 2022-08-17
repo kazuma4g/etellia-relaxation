@@ -7,6 +7,8 @@ function createTopImage(){
         $title_string = 'Salon';
     } else if (is_page('menu')){
         $title_string = 'Menu';
+    } else if (is_page('notes')){
+        $title_string = 'Notes';
     }
 
     echo <<<HTML

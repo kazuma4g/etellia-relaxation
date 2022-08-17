@@ -1,0 +1,12 @@
+.notes_content_parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+
+.notes_caution_patent{
+    width: 100%;
+    height: auto;
+}

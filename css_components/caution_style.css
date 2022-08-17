@@ -1,0 +1,73 @@
+.notes_description{
+    width: 90%;
+    height: auto;
+    color: white;
+    text-align: left;
+    font-size: 0.85rem;
+    margin-right: 2em;
+    margin-left: 2.7em;
+    margin-top: 1em;
+}
+
+@media (min-width: 690px) and (max-width: 768px) {
+    .notes_description{
+        font-size: 0.7rem;
+        margin-left: 3.5em;
+    }
+  }
+
+@media (min-width: 603px) and (max-width: 690px) {
+    .notes_description{
+        font-size: 0.65rem;
+        margin-left: 3.7em;
+    }
+  }
+  
+  @media (min-width: 550px) and (max-width: 603px) {
+    .notes_description{
+        font-size: 0.6rem;
+        margin-left: 4em;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 550px) {
+      .notes_description{
+          font-size: 0.52rem;
+          margin-left: 4.7em;
+      }
+    }
+     
+    @media (min-width: 450px) and (max-width: 480px) {
+      .notes_description{
+          font-size: 0.48rem;
+          margin-left: 5em;
+      }
+    }
+  
+    @media (min-width: 408px) and (max-width: 450px) {
+      .notes_description{
+          font-size: 0.45rem;
+          margin-left: 5.3em;
+      }
+    }
+  
+    @media (min-width: 391px) and (max-width: 408px) {
+      .notes_description{
+          font-size: 0.4rem;
+          margin-left: 6em;
+      }
+    }
+  
+    @media (min-width: 348px) and (max-width: 391px) {
+      .notes_description{
+          font-size: 0.38rem;
+          margin-left: 6.2em;
+      }
+    }
+  
+    @media (min-width: 320px) and (max-width: 348px) {
+      .notes_description{
+          font-size: 0.35rem;
+          margin-left: 6.7em;
+      }
+    }

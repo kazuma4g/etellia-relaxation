@@ -90,6 +90,13 @@ function add_components_stylesheet(){
             get_stylesheet_directory_uri().'/css_components/about_us_style.css'
         );
     }
+
+    if(is_page('notes')){
+        wp_enqueue_style(
+            'about_us_style',
+            get_stylesheet_directory_uri().'/css_components/caution_style.css'
+        );
+    }
     
 
     wp_enqueue_style(

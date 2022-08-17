@@ -58,6 +58,17 @@ function createTitle($title_str){
        HTML;
     }
 
+    if($title_str == 'notes'){
+        echo <<<HTML
+        <div class="title_parent">
+           <div class="custom_title">
+                注意事項
+                <span>Caution</span>
+           </div>
+       </div>
+       HTML;
+    }
+
 }
 
 ?>
