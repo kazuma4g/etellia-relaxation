@@ -28,12 +28,12 @@ function add_stylesheet(){
     );
 
     wp_enqueue_style(
-        'menu_content_style_pc',
+        'menu_content_style',
         get_stylesheet_directory_uri().'/css/menu_style.css'
     );
     
     wp_enqueue_style(
-        'footer_style_pc',
+        'footer_style',
         get_stylesheet_directory_uri().'/css/footer_style.css'
     );
     
@@ -42,34 +42,41 @@ function add_stylesheet(){
 function add_components_stylesheet(){
     if(is_front_page() == false){
         wp_enqueue_style(
-            'title_red_border_style_pc',
+            'title_red_border_style',
             get_stylesheet_directory_uri().'/css_components/title_red_border_style.css'
         );
         wp_enqueue_style(
-            'top_img_style_pc',
+            'top_img_style',
             get_stylesheet_directory_uri().'/css_components/top_img_style.css'
         );
     }
 
     if(is_page('menu')){
         wp_enqueue_style(
-            'menu_description_style_pc',
+            'menu_description_style',
             get_stylesheet_directory_uri().'/css_components/menu_description_style.css'
         );
 
         wp_enqueue_style(
-            'facial_menu_style_pc',
+            'facial_menu_style',
             get_stylesheet_directory_uri().'/css_components/facial_menu_style.css'
+        );
+
+        wp_enqueue_style(
+            'body_menu_style',
+            get_stylesheet_directory_uri().'/css_components/body_menu_style.css'
+        );
+    }
+
+    if(is_page('about')){
+        wp_enqueue_style(
+            'about_us_style',
+            get_stylesheet_directory_uri().'/css_components/about_us_style.css'
         );
     }
 
     wp_enqueue_style(
-        'about_us_style_pc',
-        get_stylesheet_directory_uri().'/css_components/about_us_style.css'
-    );
-
-    wp_enqueue_style(
-        'reservation_btn_style_pc',
+        'reservation_btn_style',
         get_stylesheet_directory_uri().'/css_components/reservation_btn_style.css'
     );
 

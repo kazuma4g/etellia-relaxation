@@ -1,0 +1,289 @@
+.body_menu_item_parent{
+    width: 100%;
+    height: 20%;
+    border-bottom: dashed 1px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.body_menu_item_title_parent{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0.6em;
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.body_menu_item_price_list_parent{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+.body_menu_item_price1{
+    color: white;
+    text-align: right;
+}
+
+.body_menu_item_price1 span{
+    margin-left: 1.5em;
+}
+.body_menu_item_price2{
+    color: white;
+    text-align: right;
+}
+.body_menu_item_price2 span{
+    margin-left: 2em;
+}
+
+.body_menu_desciption1_parent{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.body_menu_desciption2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content:start;
+    color: rgb(255,255,255);
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+}
+
+.body_menu_desciption2_B{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content:start;
+    color: rgb(255,255,255);
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+}
+
+.body_menu_desciption2_C{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content:start;
+    color: rgb(255,255,255);
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+}
+
+.body_menu_desciption2_D{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content:start;
+    color: rgb(255,255,255);
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+}
+
+.body_menu_desciption1_1{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(173,0,0);
+    font-size: 0.9rem;
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    color:rgb(255,255,255);
+}
+
+.body_menu_desciption1_2{
+    width: 50%;
+    height: 100%;
+    margin-left: -1em;
+}
+
+@media (min-width: 603px) and (max-width: 768px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.9rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.8rem;
+      }
+      .body_menu_desciption1_2{
+        font-size: 0.8rem;
+        margin-left: -2em;
+    }
+    .body_menu_desciption2{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.6rem;
+    }
+  }
+
+
+@media (min-width: 550px) and (max-width: 603px) {
+    .body_menu_item_price_list_parent{
+      font-size: 0.9rem;
+      margin-right: 1.5em;
+    }
+    .body_menu_desciption1_1{
+        font-size: 0.75rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.75rem;
+        margin-left: -1.5em;
+    }
+    .body_menu_desciption2{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_B    {
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.6rem;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 550px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.8rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.7rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.7rem;
+        margin-left: -1.5em;
+    }
+    .body_menu_desciption2{
+        font-size: 0.6rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.55rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.55rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.55rem;
+    }
+}
+     
+    @media (min-width: 408px) and (max-width: 481px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.7rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.55rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.55rem;
+        margin-left: -1.5em;
+    }
+    .body_menu_desciption2{
+        font-size: 0.46rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.46rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.46rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.46rem;
+    }
+}
+  
+    @media (min-width: 391px) and (max-width: 408px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.65rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption2{
+        font-size: 0.45rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.45rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.45rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.45rem;
+    }
+}
+  
+    @media (min-width: 348px) and (max-width: 391px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.6rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption2{
+        font-size: 0.4rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.4rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.4rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.4rem;
+    }
+}
+  
+    @media (min-width: 320px) and (max-width: 348px) {
+      .body_menu_item_price_list_parent{
+        font-size: 0.58rem;
+        margin-right: 1.5em;
+      }
+      .body_menu_desciption1_1{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption1_2{
+        font-size: 0.5rem;
+    }
+    .body_menu_desciption2{
+        font-size: 0.36rem;
+    }
+    .body_menu_desciption2_B{
+        font-size: 0.36rem;
+    }
+    .body_menu_desciption2_C{
+        font-size: 0.36rem;
+    }
+    .body_menu_desciption2_D{
+        font-size: 0.36rem;
+    }
+}

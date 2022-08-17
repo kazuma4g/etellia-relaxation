@@ -4,6 +4,7 @@
     require dirname(dirname(__FILE__))."./components/common/title_red_border.php";
     require dirname(dirname(__FILE__))."./components/menu/menu_description.php";
     require dirname(dirname(__FILE__))."./components/menu/facial_menu.php";
+    require dirname(dirname(__FILE__))."./components/menu/body_menu.php";
 ?>
 <div class="menu_content_parent">
     <?php 
@@ -34,7 +35,12 @@
             createMenuDescription('body');
         ?>
         <div class="body_menu_list_parent">
-
+            <?php 
+                createBodyMenuItem('body_menu1');
+                createBodyMenuItem('body_menu2');
+                createBodyMenuItem('body_menu3');
+                createBodyMenuItem('body_menu4');
+            ?>
         </div>
         <div class="menu_reservation_btn_2_parent">
             <?php 
