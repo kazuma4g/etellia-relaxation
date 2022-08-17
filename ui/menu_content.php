@@ -9,21 +9,16 @@
     <?php 
         createTopImage();
     ?>
+    
     <div class="menu_facial_parent">
         <?php 
             createTitle('facial');
-        ?>
-         <?php 
             createMenuDescription('facial');
         ?>
         <div class="facial_menu_list_parent">
             <?php 
                 createFacialMenuItem1();
-            ?>
-             <?php 
                 createFacialMenuItem2();
-            ?>
-            <?php 
                 createFacialMenuItem3();
             ?>
             <div class="menu_reservation_btn_1_parent">
@@ -36,8 +31,6 @@
     <div class="menu_body_parent">
         <?php 
             createTitle('body');
-        ?>
-        <?php 
             createMenuDescription('body');
         ?>
         <div class="body_menu_list_parent">

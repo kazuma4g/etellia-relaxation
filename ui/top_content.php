@@ -12,11 +12,7 @@
     <div class="page_top_circle_img_parent">
         <?php 
             createTopCircleImageSalon();
-        ?>
-        <?php 
             createTopCircleImageMenu();
-        ?>
-        <?php 
             createTopCircleImageNote();
         ?>
     </div>
