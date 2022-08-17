@@ -15,7 +15,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .body_menu_item_price_list_parent{
@@ -186,8 +186,34 @@
         font-size: 0.55rem;
     }
 }
+
+@media (min-width: 460px) and (max-width: 481px) {
+    .body_menu_item_price_list_parent{
+      font-size: 0.7rem;
+      margin-right: 1.5em;
+    }
+    .body_menu_desciption1_1{
+      font-size: 0.55rem;
+  }
+  .body_menu_desciption1_2{
+      font-size: 0.55rem;
+      margin-left: -1.5em;
+  }
+  .body_menu_desciption2{
+      font-size: 0.55rem;
+  }
+  .body_menu_desciption2_B{
+      font-size: 0.55rem;
+  }
+  .body_menu_desciption2_C{
+      font-size: 0.55rem;
+  }
+  .body_menu_desciption2_D{
+      font-size: 0.55rem;
+  }
+}
      
-    @media (min-width: 408px) and (max-width: 481px) {
+    @media (min-width: 408px) and (max-width: 460px) {
       .body_menu_item_price_list_parent{
         font-size: 0.7rem;
         margin-right: 1.5em;
