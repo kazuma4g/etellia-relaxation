@@ -32,15 +32,22 @@
             ?>
             </div>
         </div>
-        <div class="menu_body_parent">
-            <?php 
-                createTitle('body');
-            ?>
-            <?php 
-                createMenuDescription('body');
-            ?>
-            <div class="body_menu_list_parent">
 
-            </div>
+    <div class="menu_body_parent">
+        <?php 
+            createTitle('body');
+        ?>
+        <?php 
+            createMenuDescription('body');
+        ?>
+        <div class="body_menu_list_parent">
+
+        </div>
+        <div class="menu_reservation_btn_2_parent">
+            <?php 
+                createReservationButton();
+            ?>
+        </div>
     </div>
+
 </div>
