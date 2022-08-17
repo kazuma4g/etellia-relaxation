@@ -9,6 +9,33 @@
     margin-top: 1em;
 }
 
+.notes_caution1_parent{
+    width: 90%;
+    height: auto;
+    color: white;
+    text-align: left;
+    font-size: 0.85rem;
+    margin-right: 2em;
+    margin-left: 2.7em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes_caution1_title{
+    font-size: 1.1rem;
+}
+
+.notes_caution1_list{
+    color: white;
+    margin-left: 1.6em;
+    margin-top: 0.3em;
+}
+
+.notes_caution1_list li{
+    font-size: 0.6rem;
+}
+
 @media (min-width: 690px) and (max-width: 768px) {
     .notes_description{
         font-size: 0.7rem;

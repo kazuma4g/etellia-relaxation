@@ -12,4 +12,18 @@ function createNotesDescription1(){
     HTML;
 }
 
+function createNotesCaution1(){
+    echo <<<HTML
+    <div class="notes_caution1_parent">
+        <div class="notes_caution1_title">
+            1.施術について
+        </div>
+        <ul class="notes_caution1_list">
+            <li>Tet</li>
+            <li>agvkdl</li>
+        </ul>
+    </div>
+    HTML;
+}
+
 ?>

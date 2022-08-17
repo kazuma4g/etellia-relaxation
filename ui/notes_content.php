@@ -14,6 +14,7 @@
     <div class="notes_description1">
     <?php 
         createNotesDescription1();
+        createNotesCaution1();
     ?>
     </div>
 </div>
