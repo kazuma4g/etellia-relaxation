@@ -1,0 +1,12 @@
+.reqruit_content_parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+
+.recruit_outline_patent{
+    width: 100%;
+    height: auto;
+}

@@ -69,6 +69,17 @@ function createTitle($title_str){
        HTML;
     }
 
+    if($title_str == 'outline'){
+        echo <<<HTML
+        <div class="title_parent">
+           <div class="custom_title">
+                求人情報
+                <span>Outline</span>
+           </div>
+       </div>
+       HTML;
+    }
+
 }
 
 ?>

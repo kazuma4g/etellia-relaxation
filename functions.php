@@ -47,6 +47,13 @@ function add_stylesheet(){
             get_stylesheet_directory_uri().'/css/notes_style.css'
         );
     }
+
+    if(is_page('recruit')){
+        wp_enqueue_style(
+            'recruit_content_style',
+            get_stylesheet_directory_uri().'/css/recruit_style.css'
+        );
+    }
     
 }
 
@@ -97,6 +104,14 @@ function add_components_stylesheet(){
             get_stylesheet_directory_uri().'/css_components/caution_style.css'
         );
     }
+
+    if(is_page('recruit')){
+        wp_enqueue_style(
+            'outline_style',
+            get_stylesheet_directory_uri().'/css_components/outline_style.css'
+        );
+    }
+    
     
 
     wp_enqueue_style(

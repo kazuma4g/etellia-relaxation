@@ -9,6 +9,8 @@ function createTopImage(){
         $title_string = 'Menu';
     } else if (is_page('notes')){
         $title_string = 'Notes';
+    } else if (is_page('recruit')){
+        $title_string = 'Recruit';
     }
 
     echo <<<HTML
