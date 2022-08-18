@@ -9,7 +9,7 @@
     margin-top: 1em;
 }
 
-.notes_caution1_parent{
+.notes_caution_parent{
     width: 90%;
     height: auto;
     color: white;
@@ -22,22 +22,22 @@
     flex-direction: column;
 }
 
-.notes_caution1_title{
+.notes_caution_title{
     font-size: 1.1rem;
 }
 
-.notes_caution1_list{
+.notes_caution_list{
     color: white;
     margin-left: 1.6em;
     margin-top: 0.3em;
 }
 
-.notes_caution1_list li{
+.notes_caution_list li{
     font-size: 0.85rem;
     list-style-type: none;
 }
 
-.notes_caution1_list li:before{
+.notes_caution_list li:before{
     content: '';
 	width: .3em;
 	height: .3em;
@@ -49,15 +49,27 @@
 	top: -0.2em;
 }
 
-.notes_caution1_list span{
+.notes_caution_list span{
     color: rgb(173, 0, 0);
 }
 
-.notes_caution1_description{
+.notes_caution_description{
     font-size: 0.8rem;
     color: rgb(173, 0, 0);
     margin-top: 0.5em;
     margin-left: 0.7em;
+}
+
+.caution3_text{
+    font-size: 0.85rem;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.caution3_text2{
+    font-size: 0.85rem;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
 }
 
 @media (min-width: 690px) and (max-width: 768px) {
@@ -65,10 +77,16 @@
         font-size: 0.7rem;
         margin-left: 3.5em;
     }
-    .notes_caution1_list li{
+    .notes_caution_list li{
         font-size: 0.7rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
+        font-size: 0.65rem;
+    }
+    .caution3_text{
+        font-size: 0.65rem;
+    }
+    .caution3_text2{
         font-size: 0.65rem;
     }
   }
@@ -78,11 +96,17 @@
         font-size: 0.65rem;
         margin-left: 3.7em;
     }
-    .notes_caution1_list li{
+    .notes_caution_list li{
         font-size: 0.65rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.6rem;
+    }
+    .caution3_text{
+        font-size: 0.65rem;
+    }
+    .caution3_text2{
+        font-size: 0.65rem;
     }
   }
   
@@ -91,11 +115,17 @@
         font-size: 0.6rem;
         margin-left: 4em;
     }
-    .notes_caution1_list li{
+    .notes_caution_list li{
         font-size: 0.6rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.55rem;
+    }
+    .caution3_text{
+        font-size: 0.6rem;
+    }
+    .caution3_text2{
+        font-size: 0.6rem;
     }
   }
   
@@ -104,11 +134,17 @@
           font-size: 0.52rem;
           margin-left: 4.7em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.52rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.5rem;
+    }
+    .caution3_text{
+        font-size: 0.52rem;
+    }
+    .caution3_text2{
+        font-size: 0.52rem;
     }
     }
      
@@ -117,11 +153,17 @@
           font-size: 0.48rem;
           margin-left: 5em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.48rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.45rem;
+    }
+    .caution3_text{
+        font-size: 0.48rem;
+    }
+    .caution3_text2{
+        font-size: 0.48rem;
     }
     }
   
@@ -130,11 +172,17 @@
           font-size: 0.45rem;
           margin-left: 5.3em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.45rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.42rem;
+    }
+    .caution3_text{
+        font-size: 0.45rem;
+    }
+    .caution3_text2{
+        font-size: 0.45rem;
     }
     }
   
@@ -143,11 +191,17 @@
           font-size: 0.4rem;
           margin-left: 6em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.4rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.38rem;
+    }
+    .caution3_text{
+        font-size: 0.4rem;
+    }
+    .caution3_text2{
+        font-size: 0.4rem;
     }
     }
   
@@ -156,11 +210,17 @@
           font-size: 0.38rem;
           margin-left: 6.2em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.38rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.35rem;
+    }
+    .caution3_text{
+        font-size: 0.38rem;
+    }
+    .caution3_text2{
+        font-size: 0.38rem;
     }
     }
   
@@ -169,10 +229,16 @@
           font-size: 0.35rem;
           margin-left: 6.7em;
       }
-      .notes_caution1_list li{
+      .notes_caution_list li{
         font-size: 0.35rem;
     }
-    .notes_caution1_description{
+    .notes_caution_description{
         font-size: 0.33rem;
+    }
+    .caution3_text{
+        font-size: 0.35rem;
+    }
+    .caution3_text2{
+        font-size: 0.35rem;
     }
     }

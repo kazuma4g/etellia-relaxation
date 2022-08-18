@@ -15,6 +15,8 @@
     <?php 
         createNotesDescription1();
         createNotesCaution1();
+        createNotesCaution2();
+        createNotesCaution3();
     ?>
     </div>
 </div>
