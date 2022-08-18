@@ -20,7 +20,7 @@ function createOutlineTable(){
         <th>雇用形態</th><td>非正規社員</td>
       </tr>
       <tr>
-        <th>連絡先</th><td><span>etellia-online@gmail.com</span></td>
+        <th>連絡先</th><td><a href ="mailto: etellia-online@gmail.com"><span>etellia-online@gmail.com</span></a></td>
       </tr>
       <tr>
         <th>担当者</th><td>山田&nbsp;花子(やまだ&nbsp;はなこ)</td>

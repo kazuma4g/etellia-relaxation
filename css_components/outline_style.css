@@ -22,3 +22,42 @@
 .table_parent td {
     font-size: 0.8rem;
 }
+
+.table_parent span {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
+.table_parent a {
+    text-decoration: none;
+    color: white;
+}
+
+  @media (min-width: 320px) and (max-width: 525px) {
+    .table_parent th{
+        font-size: 0.8rem;
+    }
+
+    .table_parent td{
+        font-size: 0.7rem;
+    }
+  }
+
+  @media (min-width: 400px) and (max-width: 500px) {
+    .table_parent th{
+        font-size: 0.7rem;
+    }
+    .table_parent td{
+        font-size: 0.6rem;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 400px) {
+    .table_parent th{
+        font-size: 0.6rem;
+    }
+    .table_parent td{
+        font-size: 0.5rem;
+    }
+  }
