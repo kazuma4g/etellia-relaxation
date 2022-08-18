@@ -29,7 +29,7 @@ function getBodyMenuA(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2">
-                &lt; 頭・首・肩 &gt;を集中的にほぐします。
+                &lt; 頭&#8231;首&#8231;肩 &gt;を集中的にほぐします。
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
@@ -50,7 +50,7 @@ function getBodyMenuB(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_B">
-                <nobr>&lt; 頭・首・肩・背中・腰 &gt;を集中的にほぐします。</nobr>
+                <nobr>&lt; 頭&#8231;首&#8231;肩&#8231;背中&#8231;腰 &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
@@ -71,7 +71,7 @@ function getBodyMenuC(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_C">
-                <nobr>&lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。</nobr>
+                <nobr>&lt; 頭&#8231;首&#8231;肩&#8231;背中&#8231;腰&#8231;太もも&#8231;ふくらはぎ &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">
@@ -92,7 +92,7 @@ function getBodyMenuD(){
                 <div class="body_menu_desciption1_2">全身エステ</div>
             </div>
             <div class="body_menu_desciption2_D">
-                 <nobr>&lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。</nobr>
+                 <nobr>&lt; 頭&#8231;首&#8231;肩&#8231;背中&#8231;腰&#8231;太もも&#8231;ふくらはぎ &gt;を集中的にほぐします。</nobr>
             </div>
         </div>        
         <div class="body_menu_item_price_list_parent">

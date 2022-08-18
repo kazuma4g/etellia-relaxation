@@ -19,9 +19,12 @@ function createNotesCaution1(){
             1.施術について
         </div>
         <ul class="notes_caution1_list">
-            <li>Tet</li>
-            <li>agvkdl</li>
+            <li>当店の施術はリラクゼーションを目的に行うものであり、治療を目的にしたものではございません。<span>&#8251;1</span></li>
+            <li>当店では施術後、身体の不調等での返金や責任などは一切負いかねますので予めご了承ください。</li>
         </ul>
+        <div class="notes_caution1_description">
+            &#8251;1 医療法&#8231;薬事法&#8231;柔道整復師&#8231;あんまマッサージ指圧師&#8231;鍼灸師等に関する法律に接触しない施術となります。
+        </div>
     </div>
     HTML;
 }
