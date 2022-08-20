@@ -64,22 +64,6 @@
     font-size: 1rem;
 }
 
-.info_reservation_btn{
-    margin-top: 4em;
-    width: 40%;
-    height:auto;
-    border-radius: 50px;
-    background-color: RGB(153,0,0);
-    color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    cursor: pointer;
-}
-
-.info_reservation_btn:hover{
-    background-color: rgb(200,0,0);
-}
-
 .page_top_information_address_parent{
     width: 100%;
     height: 50%;
@@ -89,59 +73,6 @@
     text-align: left;
 }
 
-.page_top_information_address{
-    width: 50%;
-    height: 100%;
-    flex-direction: column;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin-left: 2em;
-    margin-top: 8em;
-}
-
-.page_top_information_company_name{
-    color: white;
-    font-size: 1.5rem;
-}
-
-.page_top_information_address hr {
-    width: 85%;
-    height: 1px;
-    margin-left: -1px;
-    background-color:white;
-    border: none;
-}
-
-.page_top_information_company_address1{
-    color: white;
-    font-size: 1rem;
-}
-
-.page_top_information_company_address2{
-    color: white;
-    font-size: 1rem;
-}
-
-.page_top_information_company_hours1{
-    color: white;
-    font-size: 1em;
-}
-
-.page_top_information_company_hours2{
-    color: white;
-    font-size: 1rem;
-}
-
-.page_top_information_company_tel{
-    color: white;
-    font-size: 1rem;
-}
-
-.page_top_information_company_tel span{
-    color: white;
-    font-size: 1.5rem;
-}
 
 .page_top_map{
     width: 50%;
@@ -157,37 +88,6 @@
     .page_top_information_text2{
       font-size: 0.7rem;
     }
-  
-  .page_top_information_company_name{
-    font-size: 0.8rem;
-    }
-  
-  .page_top_information_company_address1{
-    font-size: 0.75rem;
-    }
-  
-  .page_top_information_company_address2{
-    font-size: 0.75rem;
-    }
-  
-  .page_top_information_company_hours1{
-  font-size: 0.8rem;
-    }
-  
-  .page_top_information_company_hours2{
-  color: white;
-  font-size: 0.8rem;
-    }
-  
-  .page_top_information_company_tel{
-  color: white;
-  font-size: 0.8rem;
-    }
-  
-  .page_top_information_company_tel span{
-  color: white;
-  font-size: 1rem;
-    }
     
     .page_top_information_address_parent{
       margin-top: -1em;
@@ -199,56 +99,17 @@
       
   }
     
-    /* 
-      ##Device = Most of the Smartphones Mobiles (Portrait)
-      ##Screen = B/w 320px to 479px
-    */
-    
-    @media (min-width: 384px) and (max-width: 480px) {
+   
+   @media (min-width: 384px) and (max-width: 480px) {
       
-      .page_top_information_text1{
-          font-size: 1.4rem;
-      }
-  
-      .page_top_information_text2{
-        font-size: 0.6rem;
-      }
+    .page_top_information_text1{
+        font-size: 1.4rem;
+    }
+
+    .page_top_information_text2{
+      font-size: 0.6rem;
+    }
       
-      .page_top_information_company_name{
-        color: white;
-        font-size: 0.7rem;
-      }
-  
-      .page_top_information_company_address1{
-        color: white;
-        font-size: 0.6rem;
-      }
-    
-    .page_top_information_company_address2{
-        color: white;
-        font-size: 0.6rem;
-      }
-  
-    .page_top_information_company_hours1{
-      color: white;
-      font-size: 0.6rem;
-      }
-  
-  .page_top_information_company_hours2{
-      color: white;
-      font-size: 0.6rem;
-      }
-  
-  .page_top_information_company_tel{
-      color: white;
-      font-size: 0.7rem;
-      }
-  
-  .page_top_information_company_tel span{
-      color: white;
-      font-size: 1rem;
-      }
-    
     .page_top_information_address_parent{
       margin-top: -3em;
     }
@@ -257,8 +118,8 @@
       height: 26rem;
     }
   
-  .page_top_img_parent{
-    height: 20em;
+    .page_top_img_parent{
+      height: 20em;
     }
     .page_top_map{
       margin-top: 5.5em;
@@ -267,50 +128,14 @@
   
   @media (min-width: 320px) and (max-width: 384px) {
       
-    .page_top_information_text1{
-        font-size: 1.4rem;
-    }
- 
-    .page_top_information_text2{
-      font-size: 0.5rem;
-    }
+  .page_top_information_text1{
+      font-size: 1.4rem;
+  }
+
+  .page_top_information_text2{
+    font-size: 0.5rem;
+  }
     
-    .page_top_information_company_name{
-      color: white;
-      font-size: 0.6rem;
-    }
-  
-    .page_top_information_company_address1{
-      color: white;
-      font-size: 0.48rem;
-    }
-  
-  .page_top_information_company_address2{
-      color: white;
-      font-size: 0.48rem;
-    }
-  
-  .page_top_information_company_hours1{
-    color: white;
-    font-size: 0.48rem;
-    }
-  
-  .page_top_information_company_hours2{
-    color: white;
-    font-size: 0.48rem;
-    }
-  
-  .page_top_information_company_tel{
-    color: white;
-    font-size: 0.6rem;
-    }
-  
-  .page_top_information_company_tel span{
-    color: white;
-    font-size: 0.8rem;
-    }
-  
-  
   .page_top_information_address_parent{
     margin-top: -3em;
     

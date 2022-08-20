@@ -76,6 +76,10 @@ function add_components_stylesheet(){
             'front_top_img_style',
             get_stylesheet_directory_uri().'/components/front_page/front_top_img/front_top_img_style.css'
         );
+        wp_enqueue_style(
+            'company_address_bottom_style',
+            get_stylesheet_directory_uri().'/components/front_page/company_address_bottom/company_address_bottom_style.css'
+        );
     }
 
     if(is_page('menu')){
