@@ -148,58 +148,6 @@
     height: 80%;
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .circle_img_salon{
-      width: 27%;
-      height: 14em;
-    }
-    
-    .circle_img_menu{
-      width: 27%;
-      height: 14em;
-    }
-    
-    .circle_img_note{
-      width: 27%;
-      height: 14em;
-    }
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    .circle_img_salon{
-        width: 27%;
-        height: 14em;
-    }
-      
-      .circle_img_menu{
-        width: 27%;
-        height: 14em;
-    }
-      
-      .circle_img_note{
-        width: 27%;
-        height: 14em;
-    }
-    
-  }
-  
-  /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
 @media (min-width: 481px) and (max-width: 767px) {
   
     .page_top_information_text1{
@@ -326,36 +274,7 @@
       color: white;
       font-size: 1rem;
       }
-  
-  .circle_img_salon{
-    width: 30vw;
-    height: 28vw;
-    margin-right: 1em;
-    }
-  
-  .circle_img_menu{
-    width: 30vw;
-    height: 28vw;
-    margin-right: 1em;
-    }
-  
-  .circle_img_note{
-    width: 30vw;
-    height: 28vw;
-    }
-  
-  .circle_img_salon_text {
-    font-size: 1.8rem;
-    }
-  
-  .circle_img_menu_text {
-      font-size: 1.8rem;
-    }
-  
-  .circle_img_note_text {
-      font-size: 1.8rem;
-    }
-  
+    
     .page_top_information_address_parent{
       margin-top: -3em;
     }
@@ -436,34 +355,6 @@
     font-size: 0.8rem;
     }
   
-  .circle_img_salon{
-  width: 30vw;
-  height: 28vw;
-  margin-right: 1em;
-  }
-  
-  .circle_img_menu{
-  width: 30vw;
-  height: 28vw;
-  margin-right: 1em;
-  }
-  
-  .circle_img_note{
-  width: 30vw;
-  height: 28vw;
-  }
-  
-  .circle_img_salon_text {
-  font-size: 1.2rem;
-  }
-  
-  .circle_img_menu_text {
-    font-size: 1.2rem;
-  }
-  
-  .circle_img_note_text {
-    font-size: 1.2rem;
-  }
   
   .page_top_information_address_parent{
     margin-top: -3em;
