@@ -1,6 +1,6 @@
 <?php 
-    require dirname(dirname(__FILE__))."./components/common/top_img.php";
-    require dirname(dirname(__FILE__))."./components/common/title_red_border.php";
+    require dirname(dirname(__FILE__))."./components/common/top_img/top_img.php";
+    require dirname(dirname(__FILE__))."./components/common/title_red_border/title_red_border.php";
     require dirname(dirname(__FILE__))."./components/notes/caution.php";
 ?>
 <div class="notes_content_parent">

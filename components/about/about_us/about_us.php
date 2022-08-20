@@ -2,7 +2,8 @@
 
 function createAboutUs(){
     echo <<<HTML
-        <div class="about_us_content1_parent">
+    <div class="about_us_content_parent">
+    <div class="about_us_content1_parent">
             <div class="about_us_content1_img_parent">
                 <div class="about_us_content1_img"></div>
             </div>
@@ -46,6 +47,7 @@ function createAboutUs(){
                 <div class="about_us_content2_img"></div>
             </div>
         </div>
+    </div>
     HTML;
 }
 

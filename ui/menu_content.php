@@ -1,11 +1,11 @@
 <?php 
-    require dirname(dirname(__FILE__))."./components/common/reservation_btn.php";
-    require dirname(dirname(__FILE__))."./components/common/top_img.php";
-    require dirname(dirname(__FILE__))."./components/common/title_red_border.php";
-    require dirname(dirname(__FILE__))."./components/menu/menu_description.php";
-    require dirname(dirname(__FILE__))."./components/menu/facial_menu.php";
-    require dirname(dirname(__FILE__))."./components/menu/body_menu.php";
-    require dirname(dirname(__FILE__))."./components/menu/foot_menu.php";
+    require dirname(dirname(__FILE__))."./components/common/reservation_btn/reservation_btn.php";
+    require dirname(dirname(__FILE__))."./components/common/top_img/top_img.php";
+    require dirname(dirname(__FILE__))."./components/common/title_red_border/title_red_border.php";
+    require dirname(dirname(__FILE__))."./components/menu/menu_description/menu_description.php";
+    require dirname(dirname(__FILE__))."./components/menu/facial_menu/facial_menu.php";
+    require dirname(dirname(__FILE__))."./components/menu/body_menu/body_menu.php";
+    require dirname(dirname(__FILE__))."./components/menu/foot_menu/foot_menu.php";
 ?>
 <div class="menu_content_parent">
     <?php 
