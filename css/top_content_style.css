@@ -44,26 +44,6 @@
     flex-direction: column;
 }
 
-.page_top_information_reservation{
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-
-.page_top_information_text1{
-    color: rgb(255,255,255);
-    margin-top: 1em;
-    font-size: 3rem;
-}
-
-.page_top_information_text2{
-    color: rgb(255,255,255);
-    margin-top: 1em;
-    font-size: 1rem;
-}
-
 .page_top_information_address_parent{
     width: 100%;
     height: 50%;
@@ -72,7 +52,6 @@
     align-items: center;
     text-align: left;
 }
-
 
 .page_top_map{
     width: 50%;

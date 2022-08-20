@@ -80,6 +80,10 @@ function add_components_stylesheet(){
             'company_address_bottom_style',
             get_stylesheet_directory_uri().'/components/front_page/company_address_bottom/company_address_bottom_style.css'
         );
+        wp_enqueue_style(
+            'top_healing_space_style',
+            get_stylesheet_directory_uri().'/components/front_page/top_healing_space/top_healing_space_style.css'
+        );
     }
 
     if(is_page('menu')){
