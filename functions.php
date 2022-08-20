@@ -72,6 +72,10 @@ function add_components_stylesheet(){
             'top_circle_img_style',
             get_stylesheet_directory_uri().'/components/front_page/top_circle_img/top_circle_img_style.css'
         );
+        wp_enqueue_style(
+            'front_top_img_style',
+            get_stylesheet_directory_uri().'/components/front_page/front_top_img/front_top_img_style.css'
+        );
     }
 
     if(is_page('menu')){
