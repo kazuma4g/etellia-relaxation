@@ -67,6 +67,11 @@ function add_components_stylesheet(){
             'top_img_style',
             get_stylesheet_directory_uri().'/components/common/top_img/top_img_style.css'
         );
+    } else {
+        wp_enqueue_style(
+            'top_circle_img_style',
+            get_stylesheet_directory_uri().'/components/front_page/top_circle_img/top_circle_img_style.css'
+        );
     }
 
     if(is_page('menu')){

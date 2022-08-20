@@ -1,7 +1,7 @@
 <?php 
     require dirname(dirname(__FILE__))."./components/common/reservation_btn/reservation_btn.php";
     require dirname(dirname(__FILE__))."./components/front_page/front_top_img.php";
-    require dirname(dirname(__FILE__))."./components/front_page/top_circle_img.php";
+    require dirname(dirname(__FILE__))."./components/front_page/top_circle_img/top_circle_img.php";
     require dirname(dirname(__FILE__))."./components/front_page/company_address_bottom.php";
     require dirname(dirname(__FILE__))."./components/front_page/top_healing_space.php";
 ?>
