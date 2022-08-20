@@ -102,3 +102,33 @@
     font-size: 3rem;
     color: white;
 }
+
+.circle_img_salon{
+    width: 30vw;
+    height: 29vw;
+    margin-right: 1em;
+  }
+  
+  .circle_img_menu{
+    width: 30vw;
+    height: 29vw;
+    margin-right: 1em;
+    }
+  
+  .circle_img_note{
+    width: 30vw;
+    height: 29vw;
+    }
+  
+  .circle_img_salon_text {
+      font-size: 2rem;
+    }
+  
+  .circle_img_menu_text {
+      font-size: 2rem;
+    }
+  
+  .circle_img_note_text {
+      font-size: 2rem;
+    }
+
