@@ -154,19 +154,6 @@
       font-size: 2rem;
   }
   
-  .page_top_img_text{
-    flex-direction: column;
-    margin-right: 1rem;
-    font-size: 2rem;
-    color: white;
-    }
-  
-  .page_top_img_text span{
-    display:block;
-    font-size: 0.8rem;
-    color: #e4bc2e;
-    }
-  
     .page_top_information_text2{
       font-size: 0.7rem;
     }
@@ -223,19 +210,6 @@
           font-size: 1.4rem;
       }
   
-      .page_top_img_text{
-        flex-direction: column;
-        margin-right: 1rem;
-        font-size: 1.7rem;
-        color: white;
-      }
-  
-      .page_top_img_text span{
-        display:block;
-        font-size: 0.6rem;
-        color: #e4bc2e;
-      }
-  
       .page_top_information_text2{
         font-size: 0.6rem;
       }
@@ -286,12 +260,6 @@
   .page_top_img_parent{
     height: 20em;
     }
-    .info_reservation_btn{
-      margin-top: 2em;
-      font-size: 0.8rem;
-      padding-top: 2px;
-      padding-bottom: 2px;
-    }
     .page_top_map{
       margin-top: 5.5em;
     }
@@ -302,20 +270,7 @@
     .page_top_information_text1{
         font-size: 1.4rem;
     }
-  
-    .page_top_img_text{
-      flex-direction: column;
-      margin-right: 1rem;
-      font-size: 1.5rem;
-      color: white;
-    }
-  
-    .page_top_img_text span{
-      display:block;
-      font-size: 0.6rem;
-      color: #e4bc2e;
-    }
-  
+ 
     .page_top_information_text2{
       font-size: 0.5rem;
     }
@@ -368,13 +323,9 @@
   .page_top_img_parent{
   height: 20em;
   }
-  .info_reservation_btn{
-    margin-top: 2em;
-    font-size: 0.8rem;
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
+
   .page_top_map{
     margin-top: 5.5em;
   }
+
   }
