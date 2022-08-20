@@ -4,7 +4,7 @@ function add_stylesheet(){
 
     wp_enqueue_style( 
         'reset_style', 
-        get_stylesheet_directory_uri().'/css_reset/reset_style.css' 
+        get_stylesheet_directory_uri().'/css/reset_style.css' 
     );
 
     wp_enqueue_style( 
