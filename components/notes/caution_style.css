@@ -89,7 +89,7 @@
     .caution3_text2{
         font-size: 0.65rem;
     }
-  }
+    }
 
 @media (min-width: 603px) and (max-width: 690px) {
     .notes_description{
@@ -108,28 +108,28 @@
     .caution3_text2{
         font-size: 0.65rem;
     }
-  }
+    }
   
-  @media (min-width: 550px) and (max-width: 603px) {
-    .notes_description{
-        font-size: 0.6rem;
-        margin-left: 4em;
+@media (min-width: 550px) and (max-width: 603px) {
+.notes_description{
+    font-size: 0.6rem;
+    margin-left: 4em;
+}
+.notes_caution_list li{
+    font-size: 0.6rem;
+}
+.notes_caution_description{
+    font-size: 0.55rem;
+}
+.caution3_text{
+    font-size: 0.6rem;
+}
+.caution3_text2{
+    font-size: 0.6rem;
+}
     }
-    .notes_caution_list li{
-        font-size: 0.6rem;
-    }
-    .notes_caution_description{
-        font-size: 0.55rem;
-    }
-    .caution3_text{
-        font-size: 0.6rem;
-    }
-    .caution3_text2{
-        font-size: 0.6rem;
-    }
-  }
   
-  @media (min-width: 481px) and (max-width: 550px) {
+@media (min-width: 481px) and (max-width: 550px) {
       .notes_description{
           font-size: 0.52rem;
           margin-left: 4.7em;
@@ -148,50 +148,50 @@
     }
     }
      
-    @media (min-width: 450px) and (max-width: 480px) {
-      .notes_description{
-          font-size: 0.48rem;
-          margin-left: 5em;
-      }
-      .notes_caution_list li{
-        font-size: 0.4rem;
-    }
-    .notes_caution_description{
-        font-size: 0.37rem;
-    }
-    .caution3_text{
+@media (min-width: 450px) and (max-width: 480px) {
+    .notes_description{
         font-size: 0.48rem;
+        margin-left: 5em;
     }
-    .caution3_text2{
-        font-size: 0.4rem;
-    }
+    .notes_caution_list li{
+    font-size: 0.4rem;
+}
+.notes_caution_description{
+    font-size: 0.37rem;
+}
+.caution3_text{
+    font-size: 0.48rem;
+}
+.caution3_text2{
+    font-size: 0.4rem;
+}
     }
   
-    @media (min-width: 408px) and (max-width: 450px) {
-      .notes_description{
-          font-size: 0.47rem;
-          margin-left: 5em;
-      }
-      .notes_caution_list li{
+@media (min-width: 408px) and (max-width: 450px) {
+    .notes_description{
+        font-size: 0.47rem;
+        margin-left: 5em;
+    }
+    .notes_caution_list li{
         font-size: 0.44rem;
     }
     .notes_caution_description{
         font-size: 0.42rem;
     }
     .caution3_text{
-        font-size: 0.47rem;
+        font-size: 0.45rem;
     }
     .caution3_text2{
-        font-size: 0.47rem;
+        font-size: 0.45rem;
     }
-    }
+}
   
-    @media (min-width: 391px) and (max-width: 408px) {
-      .notes_description{
-          font-size: 0.42rem;
-          margin-left: 6em;
-      }
-      .notes_caution_list li{
+@media (min-width: 391px) and (max-width: 408px) {
+    .notes_description{
+        font-size: 0.42rem;
+        margin-left: 6em;
+    }
+    .notes_caution_list li{
         font-size: 0.415rem;
     }
     .notes_caution_description{
@@ -203,42 +203,43 @@
     .caution3_text2{
         font-size: 0.4rem;
     }
-    }
+}
   
-    @media (min-width: 348px) and (max-width: 391px) {
-      .notes_description{
-          font-size: 0.42rem;
-          margin-left: 6.2em;
-      }
-      .notes_caution_list li{
+@media (min-width: 348px) and (max-width: 391px) {
+    .notes_description{
+        font-size: 0.42rem;
+        margin-left: 6.2em;
+    }
+    .notes_caution_list li{
         font-size: 0.4rem;
     }
     .notes_caution_description{
         font-size: 0.38rem;
     }
     .caution3_text{
-        font-size: 0.42rem;
+        font-size: 0.4rem;
     }
     .caution3_text2{
-        font-size: 0.42rem;
+        font-size: 0.4rem;
     }
-    }
+}
   
-    @media (min-width: 320px) and (max-width: 348px) {
-      .notes_description{
-          font-size: 0.35rem;
-          margin-left: 6.7em;
-      }
-      .notes_caution_list li{
+@media (min-width: 320px) and (max-width: 348px) {
+    .notes_description{
         font-size: 0.35rem;
+        margin-left: 6.7em;
     }
-    .notes_caution_description{
-        font-size: 0.33rem;
+    .notes_caution_list li{
+    font-size: 0.35rem;
+}
+.notes_caution_description{
+    font-size: 0.33rem;
+}
+.caution3_text{
+    font-size: 0.35rem;
+}
+.caution3_text2{
+    font-size: 0.35rem;
+}
     }
-    .caution3_text{
-        font-size: 0.35rem;
-    }
-    .caution3_text2{
-        font-size: 0.35rem;
-    }
-    }
+
