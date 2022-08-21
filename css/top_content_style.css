@@ -27,14 +27,14 @@
 
 .page_top_healing_space_parent{
     width: 100%;
-    height: 16rem;
+    height: auto;
     overflow: hidden;
 }
 
 .page_top_healing_space{
     width: 100%;
-    height: 100%;
-    transform: scale(1.5);
+    aspect-ratio: 3/1;
+    transform: scale(1.35);
 }
 
 .page_top_information_parent{
