@@ -18,6 +18,18 @@
     font-size: 1rem;
 }
 
+.page_top_healing_space_parent{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.page_top_healing_space{
+  width: 100%;
+  aspect-ratio: 3/1;
+  transform: scale(1.35);
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   
     .page_top_information_text1{
@@ -28,7 +40,6 @@
       font-size: 0.7rem;
     }
     
-      
   }
     
    

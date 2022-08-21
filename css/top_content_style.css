@@ -13,30 +13,6 @@
     color: rgb(170,0,0);
 }
 
-.page_top_circle_img_parent{
-    flex-direction: row;
-    background-color: RGB(0,0,0);
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.page_top_healing_space_parent{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.page_top_healing_space{
-    width: 100%;
-    aspect-ratio: 3/1;
-    transform: scale(1.35);
-}
-
 .page_top_information_parent{
     width: 100%;
     height: 50rem;
@@ -80,10 +56,7 @@
     .page_top_information_parent{
       height: 26rem;
     }
-  
-    .page_top_img_parent{
-      height: 20em;
-    }
+    
     .page_top_map{
       margin-top: 5.5em;
     }
@@ -100,10 +73,6 @@
     height: 22rem;
   }
   
-  .page_top_img_parent{
-  height: 20em;
-  }
-
   .page_top_map{
     margin-top: 5.5em;
   }

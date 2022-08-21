@@ -1,3 +1,15 @@
+.page_top_circle_img_parent{
+    flex-direction: row;
+    background-color: RGB(0,0,0);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .circle_img_salon{
     width: 30%;
     height: 15em;
