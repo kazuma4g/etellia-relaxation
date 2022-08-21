@@ -25,23 +25,39 @@
 @media (min-width: 531px) and (max-width: 767px) {
     .about_us_google_map{
         width: 90%;
+        height: 50%;
+    }
+    .about_us_google_map_parent p{
+        font-size: 0.8rem;
     }
 }
   
   @media (min-width: 475px) and (max-width: 531px) {
     .about_us_google_map{
         width: 90%;
+        height: 50%;
+    }
+    .about_us_google_map_parent p{
+        font-size: 0.8rem;
     }
 }
 
   @media (min-width: 400px) and (max-width: 475px) {
     .about_us_google_map{
         width: 90%;
+        height: 50%;
+    }
+    .about_us_google_map_parent p{
+        font-size: 0.6rem;
     }
 }
 
   @media (min-width: 320px) and (max-width: 400px) {
     .about_us_google_map{
         width: 85%;
+        height: 50%;
+    }
+    .about_us_google_map_parent p{
+        font-size: 0.6rem;
     }
 }

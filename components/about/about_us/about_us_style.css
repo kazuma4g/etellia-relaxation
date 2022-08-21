@@ -134,12 +134,22 @@
     }
   }
 
-  @media (min-width: 320px) and (max-width: 400px) {
+  @media (min-width: 374px) and (max-width: 400px) {
     .about_us_content1_text{
-        font-size: 0.45rem;
-        margin-left: -4em;
+        font-size: 0.48rem;
+        margin-left: -5em;
     }
     .about_us_content2_text{
-        font-size: 0.4rem;
+        font-size: 0.48rem;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 374px) {
+    .about_us_content1_text{
+        font-size: 0.45rem;
+        margin-left: -5em;
+    }
+    .about_us_content2_text{
+        font-size: 0.43rem;
     }
   }
