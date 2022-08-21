@@ -8,17 +8,9 @@
 <div class="top_page_container">
     <?php 
         createFrontTopImage();
+        createTopCircleImages();
+        createHealingSpaceImage();
     ?>
-    <div class="page_top_circle_img_parent">
-        <?php 
-            createTopCircleImageSalon();
-            createTopCircleImageMenu();
-            createTopCircleImageNote();
-        ?>
-    </div>
-    <div class="page_top_healing_space_parent">
-        <img class="page_top_healing_space" src="<?php echo get_stylesheet_directory_uri(); ?>/img/healing_space.jpg"/>
-    </div>
     <div class="page_top_information_parent">
         <?php 
             createHealingSpace();

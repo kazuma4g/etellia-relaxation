@@ -1,5 +1,14 @@
 <?php 
 
+function createHealingSpaceImage(){
+    $basePath = get_stylesheet_directory_uri();
+    echo <<<HTML
+        <div class="page_top_healing_space_parent">
+            <img class="page_top_healing_space" src="$basePath/img/healing_space.jpg"/>
+        </div>
+    HTML;
+}
+
 function createHealingSpace(){
     echo <<<HTML
         <div class="page_top_information_reservation">
