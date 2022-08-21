@@ -169,58 +169,58 @@
   
     @media (min-width: 408px) and (max-width: 450px) {
       .notes_description{
-          font-size: 0.4rem;
-          margin-left: 5.3em;
+          font-size: 0.47rem;
+          margin-left: 5em;
       }
       .notes_caution_list li{
-        font-size: 0.4rem;
+        font-size: 0.44rem;
     }
     .notes_caution_description{
-        font-size: 0.37rem;
+        font-size: 0.42rem;
     }
     .caution3_text{
-        font-size: 0.38rem;
+        font-size: 0.47rem;
     }
     .caution3_text2{
-        font-size: 0.38rem;
+        font-size: 0.47rem;
     }
     }
   
     @media (min-width: 391px) and (max-width: 408px) {
       .notes_description{
-          font-size: 0.4rem;
+          font-size: 0.42rem;
           margin-left: 6em;
       }
       .notes_caution_list li{
-        font-size: 0.4rem;
+        font-size: 0.415rem;
     }
     .notes_caution_description{
-        font-size: 0.37rem;
+        font-size: 0.4rem;
     }
     .caution3_text{
-        font-size: 0.38rem;
+        font-size: 0.4rem;
     }
     .caution3_text2{
-        font-size: 0.38rem;
+        font-size: 0.4rem;
     }
     }
   
     @media (min-width: 348px) and (max-width: 391px) {
       .notes_description{
-          font-size: 0.38rem;
+          font-size: 0.42rem;
           margin-left: 6.2em;
       }
       .notes_caution_list li{
-        font-size: 0.38rem;
+        font-size: 0.4rem;
     }
     .notes_caution_description{
-        font-size: 0.35rem;
+        font-size: 0.38rem;
     }
     .caution3_text{
-        font-size: 0.38rem;
+        font-size: 0.42rem;
     }
     .caution3_text2{
-        font-size: 0.38rem;
+        font-size: 0.42rem;
     }
     }
   
