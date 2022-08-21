@@ -14,7 +14,7 @@
 }
 
 .foot_menu1_title span{
-    font-size: 0.6em;
+    font-size: 0.6rem;
     margin-left: 1em;
 }
 
@@ -154,11 +154,13 @@
       .foot_menu1_title span{
         font-size: 0.5em;
         margin-left: 1em;
-    }
-    
+     }
+     .foot_menu1_title{
+      font-size: 0.9rem;
+      }
       .foot_menu2_title{
         color: white;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         margin-top: 0.6em;
         }
       .foot_menu2_price_list_parent{
@@ -170,28 +172,30 @@
     @media (min-width: 391px) and (max-width: 408px) {
       .foot_menu1_price_list_parent{
         font-size: 0.7rem;
-        margin-right: 1.5em;
+        margin-right: 2em;
       }
       .foot_menu1_title span{
         font-size: 0.45em;
         margin-left: 1em;
-    }
-    
+      }
       .foot_menu2_title{
         color: white;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         margin-top: 0.6em;
         }
       .foot_menu2_price_list_parent{
         font-size: 0.65rem;
-        margin-right: 1.5em;
+        margin-right: 2em;
+      }
+      .foot_menu1_title{
+        font-size: 0.9rem;
       }
     }
   
     @media (min-width: 348px) and (max-width: 391px) {
       .foot_menu1_price_list_parent{
         font-size: 0.62rem;
-        margin-right: 1.5em;
+        margin-right: 2.5em;
       }
       .foot_menu1_title span{
         font-size: 0.45em;
@@ -199,19 +203,22 @@
     }
       .foot_menu2_title{
         color: white;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         margin-top: 0.6em;
         }
       .foot_menu2_price_list_parent{
         font-size: 0.6rem;
-        margin-right: 1.5em;
+        margin-right: 2.5em;
+      }
+      .foot_menu1_title{
+        font-size: 0.9rem;
       }
     }
   
     @media (min-width: 320px) and (max-width: 348px) {
       .foot_menu1_price_list_parent{
         font-size: 0.58rem;
-        margin-right: 1.5em;
+        margin-right: 2.5em;
       }
       .foot_menu1_title span{
         font-size: 0.4em;
@@ -219,11 +226,14 @@
     }
       .foot_menu2_title{
         color: white;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         margin-top: 0.6em;
         }
       .foot_menu2_price_list_parent{
         font-size: 0.58rem;
-        margin-right: 1.5em;
+        margin-right: 2.5em;
+      }
+      .foot_menu1_title{
+        font-size: 0.9rem;
       }
     }

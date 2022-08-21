@@ -164,49 +164,73 @@
         font-size: 0.7rem;
         margin-right: 1.5em;
       }
+      .smaller_facial_title{
+        font-size: 0.9rem;
+      }
+      .menu_item2_title{
+        font-size: 0.9rem;
+      }
     }
   
     @media (min-width: 391px) and (max-width: 408px) {
       .smaller_facial_price_list_parent{
-        font-size: 0.7rem;
-        margin-right: 1.5em;
+        font-size: 0.65rem;
+        margin-right: 2em;
       }
       .menu_item2_price_list_parent{
         font-size: 0.65rem;
-        margin-right: 1.5em;
+        margin-right: 2em;
       }
       .prasma_shower_price_list_parent{
         font-size: 0.65rem;
-        margin-right: 1.5em;
+        margin-right: 2em;
+      }
+      .smaller_facial_title{
+        font-size: 0.9rem;
+      }
+      .menu_item2_title{
+        font-size: 0.9rem;
       }
     }
   
     @media (min-width: 348px) and (max-width: 391px) {
       .smaller_facial_price_list_parent{
         font-size: 0.62rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
       }
       .menu_item2_price_list_parent{
         font-size: 0.6rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
       }
       .prasma_shower_price_list_parent{
         font-size: 0.6rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
+      }
+      .smaller_facial_title{
+        font-size: 0.9rem;
+      }
+      .menu_item2_title{
+        font-size: 0.9rem;
       }
     }
   
     @media (min-width: 320px) and (max-width: 348px) {
       .smaller_facial_price_list_parent{
         font-size: 0.58rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
       }
       .menu_item2_price_list_parent{
         font-size: 0.58rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
       }
       .prasma_shower_price_list_parent{
         font-size: 0.58rem;
-        margin-right: 1.5em;
+        margin-right: 2.3em;
+      }
+      .smaller_facial_title{
+        font-size: 0.9rem;
+      }
+      .menu_item2_title{
+        font-size: 0.9rem;
       }
     }
