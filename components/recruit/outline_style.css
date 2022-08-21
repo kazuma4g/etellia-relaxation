@@ -34,7 +34,7 @@
     color: white;
 }
 
-  @media (min-width: 320px) and (max-width: 525px) {
+  @media (min-width: 500px) and (max-width: 525px) {
     .table_parent th{
         font-size: 0.8rem;
     }

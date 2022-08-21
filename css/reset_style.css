@@ -10,7 +10,10 @@ li,
 dl,
 dt,
 dd,
-nav{
+nav,
+table,
+th,
+td{
   margin: 0;
   padding: 0;
 }

@@ -10,3 +10,15 @@
     width: 100%;
     height: auto;
 }
+
+@media (min-width: 400px) and (max-width: 500px) {
+    html{
+        background-color: black;
+    }
+}
+
+  @media (min-width: 320px) and (max-width: 400px) {
+    html{
+        background-color: black;
+    }
+}
