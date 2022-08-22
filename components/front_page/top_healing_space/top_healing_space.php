@@ -10,6 +10,7 @@ function createHealingSpaceImage(){
 }
 
 function createHealingSpace(){
+    $baseUrl = get_site_url();
     echo <<<HTML
         <div class="page_top_information_reservation">
             <div class="page_top_information_text1">
@@ -24,7 +25,7 @@ function createHealingSpace(){
             <button 
                 type="button" 
                 class="c_reservation_btn"
-                onclick="window.location.href='<?= get_site_url(); ?>'">
+                onclick="window.location.href='$baseUrl'">
                 ご予約はこちら
             </button>
         </div>
